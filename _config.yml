@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 炎忍のBlog
+title: 炎忍的博客
 subtitle:
 description:
 keywords:
@@ -21,7 +21,10 @@ search:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://blog.endureblaze.cn
 root: /
-permalink: :year/:month/:day/:title/
+permalink: posts/:abbrlink/
+abbrlink:
+  alg: crc32  #support crc16(default) and crc32
+  rep: hex    #support dec(default) and hex
 permalink_defaults:
 
 # Directory

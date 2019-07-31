@@ -1,11 +1,12 @@
 ---
 title: 如何优雅的使用 Material Design 2
-date: 2019-07-31 00:38:57
 tags:
-- [Material Design 2]
-- [踩坑]
-categories: 
-- Android
+  - - Material Design 2
+  - - 踩坑
+categories:
+  - Android
+abbrlink: 9cb48aa5
+date: 2019-07-31 00:38:57
 ---
 ## 简介
 

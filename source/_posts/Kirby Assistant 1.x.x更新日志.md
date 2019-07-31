@@ -1,10 +1,11 @@
 ---
 title: Kirby Assistant 1.x.x更新日志
+tags:
+  - 更新日志
+categories:
+  - Kirby Assistant
+abbrlink: 12e7f5da
 date: 2019-07-30 16:44:24
-tags: 
-- 更新日志
-categories: 
-- Kirby Assistant
 ---
 
 #### v1.4.4(47)
