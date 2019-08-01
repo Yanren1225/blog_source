@@ -163,3 +163,19 @@ canvas_ribbon:
 #点击爱心效果
 fireworks: false
 love: true
+
+# Google Webmaster tools verification.
+# See: https://www.google.com/webmasters
+google_site_verification: true
+
+# Bing Webmaster tools verification.
+# See: https://www.bing.com/webmaster
+bing_site_verification: true
+
+# Yandex Webmaster tools verification.
+# See: https://webmaster.yandex.ru
+yandex_site_verification: true
+
+# Baidu Webmaster tools verification.
+# See: https://ziyuan.baidu.com/site
+baidu_site_verification: true
