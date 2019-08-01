@@ -1,9 +1,10 @@
 ---
 title: Kirby Assistant 1.x.x更新日志
 tags:
+  - Kirby Assistant
   - 更新日志
 categories:
-  - Kirby Assistant
+  - 我的 Android 应用
 abbrlink: 12e7f5da
 date: 2019-07-30 16:44:24
 ---

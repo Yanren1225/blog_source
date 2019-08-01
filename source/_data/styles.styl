@@ -1,14 +1,13 @@
-// 添加背景图片
 
 // 修改主体透明度
 .main-inner {
   background: #fff;
-  opacity: 0.8;
+  opacity: 0.85;
 }
 
 // 修改菜单栏透明度
 .header-inner {
-  opacity: 0.8;
+  opacity: 0.85;
 }
 
 //导航区背景
@@ -232,6 +231,28 @@
   &:hover {
   background: $site-buttom-background-hover;
   color: #fff;
+  -webkit-box-shadow: $site-buttom-shadow-hover;
+  -moz-box-shadow: $site-buttom-shadow-hover;
+  box-shadow: $site-buttom-shadow-hover;
+  }
+}
+
+//标签云样式
+.tag-cloud a {
+  -webkit-box-shadow: $site-buttom-shadow;
+  -moz-box-shadow: $site-buttom-shadow;
+  box-shadow: $site-buttom-shadow;
+  transition: 0.2s ease-out;
+  padding: 2px 10px;
+  margin: 8px;
+  background: #f5f5f5;
+  border-bottom: none;
+  border-radius: 12px;
+
+  &:hover {
+  text-decoration: none;
+  background: $site-buttom-background-hover;
+  color: #fff !important;
   -webkit-box-shadow: $site-buttom-shadow-hover;
   -moz-box-shadow: $site-buttom-shadow-hover;
   box-shadow: $site-buttom-shadow-hover;
