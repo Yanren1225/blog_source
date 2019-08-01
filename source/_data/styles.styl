@@ -10,11 +10,230 @@
 .header-inner {
   opacity: 0.8;
 }
-// 主页文章添加阴影效果
- .post {
-   margin-top: 60px;
-   margin-bottom: 60px;
-   padding: 25px;
-   -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5);
-   -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);
+
+//导航区背景
+.site-meta {
+  background: url("../uploads/header-bg.jpg");
+  background-position: 70% 20%;
+  padding: 18px 0;
+}
+
+//文章页卡片
+.post-block, #posts > article + article .post-block {
+  margin-top: $site-top-margin;
+  margin-left: 3px; 
+  border-radius: $site-card-radius;
+//  -webkit-box-shadow: 0 0 14px #cacbcb;
+//  -moz-box-shadow: 0 0 14px #cacbcb;
+//  box-shadow: 0 0 14px #cacbcb;
+//  background: #fff;
+  
+  @media (max-width: 767px) {
+    padding: 25px 0 15px !important;
+    margin: 0 15px 20px;
+  }
+}
+
+//二级菜单
+.sub-menu {
+  margin-top: $site-top-margin; 
+  border-radius: $site-card-radius;
+  margin-left: 3px; 
+  
+  @media (max-width: 767px) {
+    margin: 5px 10px 0;
+  }
+}
+
+#sub-menu.menu .menu-item a:hover::after {
+  background-color: transparent;
+}
+
+//页面最上面黑细条
+.headband {
+  display: none;
+}
+
+//左侧卡片样式
+.site-title {
+  font-weight: 900;
+}
+
+.header-inner {
+  margin-top: $site-top-margin; 
+  border-radius: $site-card-radius;
+    
+  @media (max-width: 767px) {
+    margin-top: 0; 
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: $site-card-radius;
+    border-bottom-left-radius: $site-card-radius;
+  }
+}
+
+.sidebar-inner {
+  margin-top: 12px; 
+  border-radius: $site-card-radius;
+}
+
+.sidebar {
+  background: transparent;
+}
+
+//社交媒体按钮样式
+.links-of-author-item {
+  width: auto;
+}
+
+//修改阅读全文按钮样式
+.post-button {
+  text-align: right;
+  margin-top: 15px;
+  
+  @media (max-width: 767px) {
+    margin-right: 18px !important;
+  }
+}
+.btn {
+  padding: 3px 15px
+  color: #fff !important;
+  background-color: #bdc3c7;
+  border: 0px;
+  border-radius: 15px;
+
+  &:hover {
+    color: #fff !important;
+    background: #34495e;
+    text-decoration: none !important;
+  }
+}
+
+//评论区
+.comments{
+  margin-left: 5px;
+  border-radius: $site-card-radius;
+  
+  @media (max-width: 767px) {
+    padding: 15px;
+    margin: 0 15px 20px;
+  }
+}
+
+//首页文章标题左侧
+.posts-expand .post-meta {
+  text-align: left;
+  margin: 3px 0 40px 0;
+}
+
+//首页文章标题下时间格式
+.posts-expand .post-meta time {
+  border-bottom: none;
+  cursor: initial;
+}
+
+//首页文章标题
+.posts-expand .post-title {
+  border-left: #649ab6 8px solid;
+  font-weight: 900;
+  padding-left: 10px;
+  text-align: left;
+}
+
+//归档、标签、分类页文章标题字体
+.posts-collapse .post-title a {
+  font-family: $font-family-base;
+}
+
+//文章页标题
+.page-post-detail .post-title, .page-post-detail .post-meta {
+  text-align: center;
+  border-left: none;
+  padding-left: 0;
+}
+
+//文章内文字间距
+.post-body p {
+  letter-spacing: .5px;
+}
+
+//文章图片边框取消
+.posts-expand .post-body img {
+  border: 0px;
+}
+
+//分类页样式
+@media (max-width: 767px) {
+  .category-all-page .category-list-item {
+    margin: 5px 40px;
+  }
+}
+@media (min-width: 767px) {
+  .category-all-page .category-list-item {
+    margin-left: 15px;
+  }
+  ul.category-list {
+    text-align: center;
+  }
+  li.category-list-item  {
+    display: inline-block;
+  }
+  li.category-list-item a {
+    -webkit-box-shadow: $site-buttom-shadow;
+    -moz-box-shadow: $site-buttom-shadow;
+    box-shadow: $site-buttom-shadow;
+    transition: 0.2s ease-out;
+    padding: 10px 15px;
+    background: #649ab6;
+    color: #fff
+    border-bottom: none;
+    border-radius: 15px;
+    line-height: 4;
+    word-break: keep-all;
+
+    &:hover {
+    text-decoration: none;
+    -webkit-box-shadow: $site-buttom-shadow-hover;
+    -moz-box-shadow: $site-buttom-shadow-hover;
+    box-shadow: $site-buttom-shadow-hover;
+    }
+  }
+  .category-all-page .category-list {
+    padding-top: 10px;
+  }
+}
+
+
+//页码栏
+.pagination, .pagination .prev, .pagination .next, .pagination .page-number {
+  border:none;
+}
+.pagination .page-number.current {
+  border-radius: 100%;
+  background: #34495e;
+}
+.pagination {
+  background: none;
+  box-shadow: none;
+}
+
+//文章页内标签样式
+.posts-expand .post-tags a {
+  -webkit-box-shadow: $site-buttom-shadow;
+  -moz-box-shadow: $site-buttom-shadow;
+  box-shadow: $site-buttom-shadow;
+  transition: 0.2s ease-out;
+  padding: 3px 5px;
+  margin: 5px;
+  background: #f5f5f5;
+  border-bottom: none;
+  border-radius: 15px;
+
+  &:hover {
+  background: $site-buttom-background-hover;
+  color: #fff;
+  -webkit-box-shadow: $site-buttom-shadow-hover;
+  -moz-box-shadow: $site-buttom-shadow-hover;
+  box-shadow: $site-buttom-shadow-hover;
+  }
 }

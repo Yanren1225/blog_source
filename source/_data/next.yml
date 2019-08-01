@@ -1,0 +1,152 @@
+# Remove unnecessary files after hexo generate.
+minify: true
+
+#自定义样式
+custom_file_path:
+  head: source/_data/head.swig
+  header: source/_data/header.swig
+  sidebar: source/_data/sidebar.swig
+  postMeta: source/_data/post-meta.swig
+  postBodyEnd: source/_data/post-body-end.swig
+  footer: source/_data/footer.swig
+  bodyEnd: source/_data/body-end.swig
+  variable: source/_data/variables.styl
+  mixin: source/_data/mixins.styl
+  style: source/_data/styles.styl
+
+#网页标题图
+favicon:
+  small: /uploads/favicon-16x16-next.png
+  medium: /uploads/favicon-32x32-next.png
+
+#rss订阅
+rss: /atom.xml
+
+#底部
+footer:
+  #创建年份
+  since: 2019
+  #底部图标
+  icon:
+    name: heart 
+    animated: true
+    color: "#ff0000"
+#显示版权信息
+creative_commons:
+  license: by-nc-sa
+  post: true
+  language:
+
+seo: true
+
+#菜单
+menu:
+  博客首页: / || home
+  文章归档: /archives/ || archive
+  分类专栏: /categories/ || th
+  各种标签: /tags/ || tags
+  about:
+    default: about/ || location-arrow
+    #光影留痕: photos/ || camera-retro
+    #好物分享: share/ || share-alt
+    小伙伴们: friends/ || heart
+  #schedule: /schedule/ || calendar
+  #sitemap: /sitemap.xml || sitemap
+  #commonweal: /404/ || heartbeat
+
+#主题样式
+scheme: Gemini
+
+#侧边栏联系方式
+social:
+  GitHub: https://github.com/endureblaze || github
+  E-Mail: mailto:nihaocun@163.com || envelope
+  #Google: https://plus.google.com/yourname || google
+  Twitter: https://twitter.com/nihaocun?s=09 || twitter
+  Weibo: http://weibo.com/nihaocun || weibo
+  #FB Page: https://www.facebook.com/yourname || facebook
+  #VK Group: https://vk.com/yourname || vk
+  #StackOverflow: https://stackoverflow.com/yourname || stack-overflow
+  #YouTube: https://youtube.com/yourname || youtube
+  #Instagram: https://instagram.com/yourname || instagram
+  #Skype: skype:yourname?call|chat || skype
+
+#侧边栏联系方式图标
+social_icons:
+  enable: true
+  icons_only: false
+  transition: false
+  GitHub: github
+  Twitter: twitter
+  envelope: email
+  weibo: weibo
+
+#友链
+links_icon: link
+links_title: Links
+links_layout: block
+#links_layout: inline
+links:
+
+#用户头像
+avatar:
+  url: /uploads/avatar.png
+  rounded: true
+
+#显示返回到顶部按钮
+back2top:
+  enable: true
+  sidebar: true
+  scrollpercent: true
+
+#显示阅读更多按钮
+auto_excerpt:
+  enable: true
+  length: 150
+
+#显示阅读时间
+symbols_count_time:
+  separated_meta: true
+  item_text_post: true
+  item_text_total: true
+  awl: 2
+  wpm: 300
+  suffix: mins.
+
+#评论
+livere_uid: MTAyMC80NTY5MS8yMjIwMg==
+
+#统计
+busuanzi_count:
+  enable: true
+  post_views: true
+  post_views_icon: eye
+
+#搜索
+local_search:
+  enable: true
+  trigger: auto
+  top_n_per_article: 1
+  unescape: false
+  preload: false
+
+#加载条
+pace:
+  enable: true
+  # Themes list:
+  # big-counter | bounce | barber-shop | center-atom | center-circle | center-radar | center-simple
+  # corner-indicator | fill-left | flat-top | flash | loading-bar | mac-osx | material | minimal
+  theme: minimal
+
+#背景
+canvas_ribbon:
+  enable: true
+  vendors:
+  # Internal version: 1.0.0
+  # See: https://github.com/zproo/canvas-ribbon
+  # Example:
+  canvas_ribbon: //cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-ribbon@1/canvas-ribbon.js
+
+#点击爱心效果
+fireworks: false
+love: true
