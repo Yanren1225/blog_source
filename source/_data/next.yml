@@ -122,9 +122,20 @@ livere_uid: MTAyMC80NTY5MS8yMjIwMg==
 
 #统计
 busuanzi_count:
+  # count values only if the other configs are false
   enable: true
-  post_views: true
-  post_views_icon: eye
+  # custom uv span for the whole site
+  site_uv: true
+  site_uv_header: 访客数
+  site_uv_footer: 人
+  # custom pv span for the whole site
+  site_pv: true
+  site_pv_header: 总访问量
+  site_pv_footer: 次
+  # custom pv span for one page only
+  page_pv: true
+  page_pv_header: <i class="fa fa-file-o"></i>  阅读数
+  page_pv_footer:
 
 #搜索
 local_search:
@@ -163,6 +174,19 @@ canvas_ribbon:
 #点击爱心效果
 fireworks: false
 love: true
+
+# -------------------------------------------------------------
+ # web run time
+ # 这是网站开始运行的时间，展示网站运行了多长时间。
+ # 格式, 2018-02-13 15:00:00. 如果个数只有一位，需要补零。
+runtime: 
+  enable: true
+  year: 2019
+  month: 07
+  day: 30
+  hour: 13
+  minute: 36
+  second: 17
 
 # Google Webmaster tools verification.
 # See: https://www.google.com/webmasters

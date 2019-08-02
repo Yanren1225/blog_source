@@ -8,6 +8,7 @@ abbrlink: dc790cfc
 date: 2019-08-01 22:53:03
 ---
 一些 WordPress 主题，好像都是来自吾爱破解，在这里记录一下
+<!-- more --> 
 ## 1. betheme
 <https://www.52pojie.cn/thread-590043-1-1.html>
 ## 2. Begin知更鸟
