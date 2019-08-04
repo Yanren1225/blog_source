@@ -48,6 +48,7 @@ menu:
   about:
     default: about/ || location-arrow
     相册: photos/ || camera-retro
+    设定: kirbyimage/ || gift
     #好物分享: share/ || share-alt
     小伙伴们: friends/ || heart
   #schedule: /schedule/ || calendar
@@ -100,7 +101,7 @@ toc:
 #显示返回到顶部按钮
 back2top:
   enable: true
-  sidebar: true
+  sidebar: false
   scrollpercent: true
 
 #显示阅读更多按钮
@@ -204,6 +205,7 @@ vendors:
 
   lazyload: //cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js
 
+  valine: //cdn.jsdelivr.net/npm/valine/dist/Valine.min.js
 # -------------------------------------------------------------
  # web run time
  # 这是网站开始运行的时间，展示网站运行了多长时间。

@@ -6,6 +6,7 @@
     "version": "3.9.0"
   },
   "dependencies": {
+    "aplayer": "^1.10.1",
     "hexo": "^3.9.0",
     "hexo-abbrlink": "^2.0.5",
     "hexo-auto-category": "^0.2.0",
