@@ -85,5 +85,10 @@ obs，不用多说了，剪视频、录游戏好帮手。
 ![enter description here](https://www.github.com/EndureBlaze/Blog_image/raw/master/小书匠/2019/8/1/1564662993827.png)
 [点这里下载](https://www.videolan.org/)
 
+## 15. Geek Uninstaller
+Geek Uninstaller 是一个专业卸载软件，采取深而快的扫描方式，删除所有无用的文件，注册表，卸载无残留！
+这款软件也是一款单文件软件，下载后，不用安装，双击直接使用，卸载软件、强制彻底清除软件残留垃圾文件或是查看某软件的注册表项目等等。
+![enter description here](https://www.github.com/EndureBlaze/Blog_image/raw/master/小书匠/2019/8/5/1565003927390.png)
+你可以在他的[官网](https://geekuninstaller.com/)获取到
 ## 未完
 后面想到了再补充

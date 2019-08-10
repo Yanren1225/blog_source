@@ -146,6 +146,17 @@ local_search:
   unescape: false
   preload: false
 
+# 打赏
+reward_settings:
+  # You can show or hide reward in a specific article throuth `reward: true | false` in Front-matter.
+  enable: true
+  animation: false
+  comment: <p style="color:#34495e; margin:0 0 5px 0;">🍭支持一根棒棒糖！</p>
+
+reward:
+  wechatpay: cloud/img/wx_reward.jpg
+  alipay: cloud/img/alipay.jpg
+
 codeblock:
   # Code Highlight theme
   # Available values: normal | night | night eighties | night blue | night bright
