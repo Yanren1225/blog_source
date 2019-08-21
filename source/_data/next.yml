@@ -201,6 +201,9 @@ canvas_ribbon:
   # Example:
   canvas_ribbon: //cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-ribbon@1/canvas-ribbon.js
 
+# Baidu Analytics
+baidu_analytics: c3d2934724bf340e28b3e443b496e782
+
 #点击爱心效果
 fireworks: false
 love: true

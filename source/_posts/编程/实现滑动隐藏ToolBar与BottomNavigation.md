@@ -13,7 +13,7 @@ date: 2019-08-09 23:23:00
 <!--more-->
 (这里有图，Github 可能速度比较慢)
 ![最终效果](https://www.github.com/EndureBlaze/Blog_image/raw/master/小书匠/2019/8/10/最终效果.gif)
-## 1.准备过程
+## 1. 准备过程
 首先这样的效果都是基`CoordinatorLayout`来实现的，所以先在`app`模块下添加如下依赖
 
 ``` gradle
@@ -33,7 +33,7 @@ implementation 'androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01'//版�
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
 ```
 到此，准备过程就完成了
-## 2.实现隐藏 Toolbar
+## 2. 实现隐藏 Toolbar
 首先在上面的基础上需要添加 Toolbar 组件，如
 
 ``` xml
@@ -102,7 +102,7 @@ implementation 'androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01'//版�
 ```
 可以看到这里指定了一个` app:layout_behavior="@string/appbar_scrolling_view_behavior"`那么这个属性实际上是谷歌封装好的一个 Behavior，已经完成了 Toolbar 隐藏所有动画效果。
 
-## 3.实现隐藏 BottomNavigation
+## 3. 实现隐藏 BottomNavigation
 BottomNavigation 的话，谷歌没有进行封装，需要我们自己实现，那么先在布局添加 BottomNavigation 组件
 
 ``` xml
@@ -265,7 +265,7 @@ public class BottomNavigationBehavior<V extends View>  extends CoordinatorLayout
 
 snap 效果可以通过`private boolean isSnappingEnabled = true//false是关闭;`来控制
 
-## 4.FloatingActionButton 呢？
+## 4. FloatingActionButton 呢？
 上面的这些都是忽略了 FAB 的情况下，那么 FAB 应该如何实现呢？当然也是靠自定义 behavior 不过稍稍有点不同，一起来看看吧
 
 首先添加布局
@@ -362,5 +362,5 @@ public class BottomNavigationFABBehavior<V extends View>  extends CoordinatorLay
 ```
 可以看到还是比较简单的，主要是实现了与底栏的交互还有 snackbar 的交互
 
-## 5.结尾
+## 5. 结尾
 那这个实现是我参考了其他的博文以及 Github 的一些项目总结出来的，如果那里有问题还请指出

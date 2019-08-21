@@ -94,9 +94,11 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git 
-  repo: git@github.com:endureblaze/endureblaze.github.io.git 
-  branch: master 
+ - type: git 
+   repo: git@github.com:endureblaze/endureblaze.github.io.git 
+   branch: master
+
+ - type: baidu_url_submitter
 
 symbols_count_time:
   symbols: true
@@ -114,3 +116,9 @@ plugins: hexo-generate-feed
 auto_category:
  enable: true
  depth:
+
+baidu_url_submit:
+  count: 3 ## 提交最新的一个链接
+  host: blog.endureblaze.cn ## 在百度站长平台中注册的域名
+  token:  czftj7pG68mDZIJk ## 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
+  path: baidu_urls.txt ## 文本文档的地址， 新链接会保存在此文本文档里
