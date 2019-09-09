@@ -21,13 +21,13 @@ tags:
 　　搞！说的轻巧，那得有好的构思啊。那怎么做？怎么设计？卡片？不行，效率太低，那就……列表？诶，这个绝妙，可以快速定位。用之前下载的 iapp 教程就这样动手起来，十分简单，甚至不用动手编写，只需要拖动就可以了。这可让我第一次尝试就尝到了甜头，顺顺利利的就做了几个列表出来。
 ### 3.2 无力吐槽的图标
 　　列表是有了，那……图标？既然这是关于 星之卡比 的程序，那就用一张官方的图，后面再用 PS Touch 做一个背景上去，就是下面这个	
-![初代-未使用](https://www.github.com/EndureBlaze/Blog_image/raw/master/小书匠/2019/8/4/初代-未使用.png)
+![初代-未使用](/blog_image/Kirby Assistant编年史/初代-未使用.png)
 　　wd?这也太丑了吧？你看这色彩，这布局，这裁剪，丑到家了。不过当时可没有人来帮我做设计，就现先这样用吧。
 　　图标有了，凑合能用的程序也有了，那叫什么名字呢？这是关于 星之卡比 的程序，可以用来下资源，你可能认为理所当然的叫 卡比下载器？不不不，根据[母语羞涩原理](https://www.zhihu.com/question/308116322)当然是叫 Kirby Download 啦！
 ### 3.2 这就算……开始了吧
 　　然后我就带着这个样子的程序去贴吧发帖了~~~~当然因为傻逼百度这贴已经找不到了
 ~~对了，图标我换了，长这样~~		
-![初代-使用且出现视频](https://www.github.com/EndureBlaze/Blog_image/raw/master/小书匠/2019/8/4/初代-使用且出现视频.png)
+![初代-使用且出现视频](/blog_image/Kirby_Assistant_编年史/初代-使用且出现视频.png)
 而且当时还做了个[视频](https://www.bilibili.com/video/av7053495)~~辣眼睛注意~~
 
 <iframe src="//player.bilibili.com/player.html?aid=7053495&cid=11499734&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 640px; height: 430px; max-width: 100%"> </iframe>
@@ -37,20 +37,20 @@ tags:
 　　时间一天天过着，初代版本也在不断更新~~虽然没更新多久~~。可是 iapp 只能拖动的布局已经不能满足我了，我需要更好用的语言，更好用的 ide。迫于当时觉得 java 入门门槛过于高，正好 AndroLua 又在盛行，我也就选择使用这个来接着编写了。这是一个由 nirenr 一个人改编的，基于 lua 语言，但是有一些 java 语法成分的[解释型语言](https://baike.baidu.com/item/%E8%A7%A3%E9%87%8A%E5%9E%8B%E8%AF%AD%E8%A8%80/8888952?fr=aladdin)。~~我估计就是因为太好用，太方便才会有人用的。不过成也方便，败也方便。(指弱类型)~~
 ### 4.2 崭新的 Kirby Download
 　　那用了新的语言，怎么能不重新设计界面呢，首先就是界面大改~~当然这是测试版界面~~
-  ![ka-测试版界面](https://www.github.com/EndureBlaze/Blog_image/raw/master/小书匠/2019/8/4/ka-测试版界面.png)
+  ![ka-测试版界面](/blog_image/Kirby_Assistant_编年史/ka-测试版界面.png)
   新的图标，一定要极简，本文设计，质感设计都要有，于是就有了下面这样
-  ![kd-初代后到0.8版本前](https://www.github.com/EndureBlaze/Blog_image/raw/master/小书匠/2019/8/4/kd-初代后到0.8版本前.png)
+  ![kd-初代后到0.8版本前](/blog_image/Kirby_Assistant_编年史/kd-初代后到0.8版本前.png)
   这样，Kirby Download~~钦定的~~诞生日就有了 2019-1-15
 ### 4.3 完整的资源
   因为还有学业，所以不能做到日更，所以在周更和双周更的情况下终于在 2017-03-25 收录了绝大部分资源，此时应用界面已经比较现代了~~并且傻逼一样的给应用名末尾加了个β~~
-  ![kd-资源最终版](https://www.github.com/EndureBlaze/Blog_image/raw/master/小书匠/2019/8/4/kd-资源最终版.jpg)
+  ![kd-资源最终版](/blog_image/Kirby_Assistant_编年史/kd-资源最终版.jpg)
   可以说，这个主页列表界面基本上维持到 Lua 版本结束
   并且在此之前使用了fir托管软件，地址：<https://fir.im/kirby>
 ### 4.4 跨越 版本 1.0 
 1.0算是已经接近 Lua版本的尾声了，此时发布了一个对今后影响十分巨大的主页界面
-![ka-1.0](https://www.github.com/EndureBlaze/Blog_image/raw/master/小书匠/2019/8/4/ka-1.0.jpg)
+![ka-1.0](/blog_image/Kirby_Assistant_编年史/ka-1.0.jpg)
 而且在此之前更换了新的图标，不过这个图标没有持续很久使用
-![kd-0.8到1.0版本前](https://www.github.com/EndureBlaze/Blog_image/raw/master/小书匠/2019/8/4/kd-0.8到1.0版本前.png)
+![kd-0.8到1.0版本前](/blog_image/Kirby_Assistant_编年史/kd-0.8到1.0版本前.png)
 但是这个版本bug居多，很多人反映无法使用，所以我很快迭代了
 ### 4.4 震惊 KD 惨遭被盗
 哈哈哈这个应该是个人开发者必经的，总是会被二次打包的，不过我倒是没有特别在意，只是在贴吧发了[这个帖子](https://tieba.baidu.com/p/5094724024)而已
@@ -71,9 +71,9 @@ tags:
 参阅[咳咳，我告诉你们啊。。。](https://tieba.baidu.com/p/5174062697)
 ### 5.4 来了来了 他来了
 2017-08-14 这天算是正式发布了 KD 的 java 版吧，于是乎就有了[我又来炒冷饭了，虫♤人一口 虫♤人一口](https://tieba.baidu.com/p/5272051400)~~标题暴力，暗示那位大人偷走了我停更的时间咳咳咳~~界面如下
-![kd-java](https://www.github.com/EndureBlaze/Blog_image/raw/master/小书匠/2019/8/4/kd-java.jpg)
+![kd-java](/blog_image/Kirby_Assistant_编年史/kd-java.jpg)
 同时这个图标也是从 Lua 版一直用到 java 版
-![kd1.0到2.2.3](https://www.github.com/EndureBlaze/Blog_image/raw/master/小书匠/2019/8/4/kd1.0到2.2.3.png)
+![kd1.0到2.2.3](/blog_image/Kirby_Assistant_编年史/kd1.0到2.2.3.png)
 ### 5.5 V2？集合体？slogan？2018？
 #### 5.2.1 永不弃坑 就是我~~除非我亏的没钱了~~
 [【绝不弃坑】【游戏资源看这里】kirby download](https://tieba.baidu.com/p/5351905548)这个就是集合了一些链接，当时百度~~傻逼的~~审核机制还没有那么严格，这种帖子放现在肯定gg
@@ -87,7 +87,7 @@ tags:
 手绘预告，见过没？[【技术】kirby download3.0预告](https://tieba.baidu.com/p/5519636217)就是这么秀，纯手绘，画出3.0的大部分想法~~原稿已丢失~~
 #### 5.7.2 除夕夜发布
 此时 KD 界面已经是很接近现在的了，具体如图
-![ka-3.0](https://www.github.com/EndureBlaze/Blog_image/raw/master/小书匠/2019/8/4/ka-3.0.jpg)
+![ka-3.0](/blog_image/Kirby_Assistant_编年史/ka-3.0.jpg)
 以及，真就除夕夜发布~~正好一周年，蛮有意义的~~
 [【预热】kirby download3.0，除夕夜发布！！](https://tieba.baidu.com/p/5551002824)
 [【深夜更新】kirby download3.0](https://tieba.baidu.com/p/5552664544)
@@ -121,21 +121,21 @@ duang~
 2019-2-25 我进行了 [Kirby Assistant仓库](https://github.com/EndureBlaze/kirbydownload/)的最后一次提交，Commit 信息是 “再见Kirby download”，这个仓库的 commits 也定格在 53，不再更新
 ### 6.2 反思
 这个事情过后我也反思自己，也确实做的不够好，如果做的很好，就不会引来别人的这种说法，这么想着，我在QQ空间发了如下说说
-![空间截图](https://www.github.com/EndureBlaze/Blog_image/raw/master/小书匠/2019/8/4/空间截图.jpg)
+![空间截图](/blog_image/Kirby_Assistant_编年史/空间截图.jpg)
 也算是预告吧
 ## 7. 崭新的 你好 Kirby Assistant
 ### 7.1 从头来过
 2019-2-27 我在贴吧发帖[【资源】Kirby Assistant](https://tieba.baidu.com/p/5568861528),这个界面基本定格至今了
-![ka-初版](https://www.github.com/EndureBlaze/Blog_image/raw/master/小书匠/2019/8/4/ka-初版.jpg)
+![ka-初版](/blog_image/Kirby_Assistant_编年史/ka-初版.jpg)
 ### 7.2 新的特性
 感谢 AIDE 的更新，让我可以用到诸如自适应图标的新特性，并且在 0.4-beta-1 成功完美适配 AndroidP 这也是截止发文为止最新的 Android 正式版
 ### 7.2 撇弃旧框架
 分别在 0.4-beta-3 、 0.4-beta-6 和 0.4 版中撇弃了旧版本的条条框框，这也是成长最快的时期
 ### 7.3 新的图标
 这是分别在 0.4-beta1
-![ka-0.4b1之后-双图标-主图标-hk流星](https://www.github.com/EndureBlaze/Blog_image/raw/master/小书匠/2019/8/4/ka-0.4b1之后-双图标-主图标-hk流星.png)
+![ka-0.4b1之后-双图标-主图标-hk流星](/blog_image/Kirby_Assistant_编年史/ka-0.4b1之后-双图标-主图标-hk流星.png)
 和 0.4-beta2
-![ka-0.4b2后-双图标-副图标-Markuss](https://www.github.com/EndureBlaze/Blog_image/raw/master/小书匠/2019/8/4/ka-0.4b2后-双图标-副图标-Markuss.png)
+![ka-0.4b2后-双图标-副图标-Markuss](/blog_image/Kirby_Assistant_编年史/ka-0.4b2后-双图标-副图标-Markuss.png)
 的图标，直到目前我也是最喜欢的两个，后面做成了双图标模式
 ## 8. 未来·炫动
 现在，撇弃百度贴吧与QQ，舞台交给 Github
@@ -153,7 +153,7 @@ duang~
 2019-2-15 这天我买了域名<https://endureblaze.cn>并且把 Kirby Assistant 的官网定为<https://ka.endureblaze.cn>
 ### 8.5 更全新的图标
 在 1.2.7 版本我合并了两个图标并且 hk流星 进行了微调
-![ka-1.2.7后-现用-hk流星重绘](https://www.github.com/EndureBlaze/Blog_image/raw/master/小书匠/2019/8/4/ka-1.2.7后-现用-hk流星重绘.png)
+![ka-1.2.7后-现用-hk流星重绘](/blog_image/Kirby_Assistant_编年史/ka-1.2.7后-现用-hk流星重绘.png)
 这也是到目前为止一直使用的图标
 ### 8.6 AndroidX MD2 以及 更小的体积
 我购买了电脑，这让我可以跟方便的编写程序，更是把 Kirby Assistant 的体积压缩到更小

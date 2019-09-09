@@ -12,7 +12,7 @@ date: 2019-08-09 23:23:00
 最近在重写 Kirby Assistant 的时候需要实现像图中的效果，那这样的效果具体应该怎么实现呢，快点进来看看吧。(图在里面)
 <!--more-->
 (这里有图，Github 可能速度比较慢)
-![最终效果](https://www.github.com/EndureBlaze/Blog_image/raw/master/小书匠/2019/8/10/最终效果.gif)
+![最终效果](/blog_image/实现滑动隐藏ToolBar与BottomNavigation/最终效果.gif)
 ## 1. 准备过程
 首先这样的效果都是基`CoordinatorLayout`来实现的，所以先在`app`模块下添加如下依赖
 

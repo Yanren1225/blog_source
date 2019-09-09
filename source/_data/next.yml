@@ -45,12 +45,12 @@ menu:
   文章归档: /archives/ || archive
   分类专栏: /categories/ || th
   各种标签: /tags/ || tags
+  小伙伴们: /friends/ || heart
   about:
     default: about/ || location-arrow
     相册: photos/ || camera-retro
     设定: kirbyimage/ || gift
     #好物分享: share/ || share-alt
-    小伙伴们: friends/ || heart
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
@@ -182,7 +182,7 @@ canvas_nest:
   color: "0,0,255" # RGB values, use `,` to separate
   opacity: 0.5 # the opacity of line: 0~1
   zIndex: -1 # z-index property of the background
-  count: 99 # the number of lines
+  count: 150 # the number of lines
 
 #加载条
 pace:
