@@ -50,7 +50,6 @@ menu:
     default: about/ || location-arrow
     相册: photos/ || camera-retro
     设定: kirbyimage/ || gift
-    #好物分享: share/ || share-alt
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
