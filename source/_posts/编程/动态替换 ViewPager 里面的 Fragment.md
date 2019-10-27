@@ -16,10 +16,10 @@ date: 2019-08-17 13:40:28
 首先需要在布局中添加 ViewPager 
 
 ``` xml
- <androidx.viewpager.widget.ViewPager
-            android:id="@+id/main_fragment_viewpager"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+<androidx.viewpager.widget.ViewPager
+        android:id="@+id/main_fragment_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 ```
 然后给 ViewPager 写一个 ViewPagerAdapter 并且继承自 FragmentPagerAdapter
 
@@ -38,7 +38,7 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
     private List<Fragment> fragments;
     private List<String> page_title;//这个是对应碎片的标题，可以不需要
 
-    public ViewPagerAdapter(FragmentManager fm, List<Fragment> fragments,List<String> page_title) {
+    public ViewPagerAdapter(FragmentManager fm, List<Fragment> fragments,List<String> page_title){
         super(fm);
         this.fm=fm;
         this.fragments=fragments;
