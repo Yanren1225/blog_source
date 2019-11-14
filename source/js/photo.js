@@ -5,7 +5,7 @@ photo = {
     init: function() {
         var that = this;
         //这里设置的是刚才生成的 json 文件路径
-        $.getJSON("/about/photos/photoslist.json", function(data) {
+        $.getJSON("/photos/photoslist.json", function(data) {
             that.render(that.page, data);
             //that.scroll(data);
         });
@@ -25,8 +25,8 @@ photo = {
             li += '<div class="card" style="width:250px">' +
                 '<div class="ImageInCard" style="height:' + 250 * imageY / imageX + 'px">' +
                 //href 和 src 的链接地址是相册照片外部链接，也可以放博客目录里
-                '<a data-fancybox="gallery" href="/about/photos/images/' + imgNameWithPattern + '?raw=true" data-caption="' + imgName + '">' +
-                '<img srcset="/about/photos/images/' + imgNameWithPattern + '?raw=true" src="/about/photos/' + imgNameWithPattern + '?raw=true"/>' +
+                '<a data-fancybox="gallery" href="/photos/images/' + imgNameWithPattern + '?raw=true" data-caption="' + imgName + '">' +
+                '<img srcset="/photos/images/' + imgNameWithPattern + '?raw=true" src="/photos/' + imgNameWithPattern + '?raw=true"/>' +
                 '</a>' +
                 '</div>' +
                 //'<div class="TextInCard">' + imgName + '</div>' + //图片下显示文件名作为说明的功能

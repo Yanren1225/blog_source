@@ -89,18 +89,18 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: Butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
- - type: git 
-   repo: 
-    github: git@github.com:endureblaze/endureblaze.github.io.git 
-    coding: git@git.dev.tencent.com:nhc/blog.git
-   branch: master
+  - type: git 
+    repo: 
+      github: git@github.com:endureblaze/endureblaze.github.io.git 
+      coding: git@git.dev.tencent.com:nhc/blog.git
+    branch: master
 
- - type: baidu_url_submitter
+  - type: baidu_url_submitter
 
 symbols_count_time:
   symbols: true
@@ -116,8 +116,8 @@ plugins: hexo-generate-feed
 # Dependencies: https://github.com/xu-song/hexo-auto-category
 # depth: the depth of directory-tree you want to generate, should > 0
 auto_category:
- enable: true
- depth:
+  enable: true
+  depth:
 
 baidu_url_submit:
   count: 3 ## 提交最新的一个链接

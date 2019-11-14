@@ -1,6 +1,7 @@
 ---
 title: Git 无法 pull 仓库 显示 refusing to merge unrelated histories （拒绝合并不相关仓库）
-tags: '-Git'
+tags: 
+  - Git
 categories:
   - 技术记录
 abbrlink: e5477819
