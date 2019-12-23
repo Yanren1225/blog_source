@@ -421,8 +421,7 @@ subtitle:
   # source: 3  調用一句网（簡體） http://yijuzhan.com/
   # source: 4  調用今日詩詞（簡體） https://www.jinrishici.com/
   # subtitle 會先顯示 source , 再顯示 sub 的内容
-  source: ture
-    - 3
+  source: 2
   # (如果有英文逗號' , '，請使用轉義字符 &#44;)
   sub:
     - 记录 我的生活 以及更多
@@ -569,6 +568,7 @@ CDN_USE:
     - https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js  #/js/third-party/jquery.min.js
     - /js/utils.js
     - /js/main.js
+    - /js/baidupush.js
     - https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/autoload.js
 
 

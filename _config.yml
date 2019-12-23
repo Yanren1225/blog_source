@@ -97,7 +97,7 @@ deploy:
   - type: git 
     repo: 
       github: git@github.com:endureblaze/endureblaze.github.io.git 
-      coding: git@git.dev.tencent.com:nhc/blog.git
+      coding: git@git.dev.tencent.com:nhc/nhc.coding.me.git
     branch: master
 
   - type: baidu_url_submitter
@@ -120,7 +120,14 @@ auto_category:
   depth:
 
 baidu_url_submit:
-  count: 3 ## 提交最新的一个链接
+  count: 20 ## 提交最新的一个链接
   host: blog.endureblaze.cn ## 在百度站长平台中注册的域名
   token:  czftj7pG68mDZIJk ## 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
   path: baidu_urls.txt ## 文本文档的地址， 新链接会保存在此文本文档里
+
+encrypt:
+    enable: true
+    default_abstract: 有东西被加密了, 请输入密码查看.
+    default_message: 在这里输入密码.
+    wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.
+    wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.
