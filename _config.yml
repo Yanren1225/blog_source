@@ -97,7 +97,7 @@ deploy:
   - type: git 
     repo: 
       github: git@github.com:endureblaze/endureblaze.github.io.git 
-      coding: git@git.dev.tencent.com:nhc/nhc.coding.me.git
+      coding: git@e.coding.net:nhc/nhc.coding.me.git
     branch: master
 
   - type: baidu_url_submitter
