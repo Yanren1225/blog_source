@@ -1,5 +1,6 @@
 ---
 title: 动态替换 ViewPager 里面的 Fragment
+cover: /uploads/blog_title/android开发.png
 tags:
   - Android
   - 踩坑

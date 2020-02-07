@@ -1,5 +1,6 @@
 ---
 title: 记一些 Hexo 报错
+cover: /uploads/blog_title/记一些Hexo报错.png
 tags:
   - Hexo
   - 踩坑

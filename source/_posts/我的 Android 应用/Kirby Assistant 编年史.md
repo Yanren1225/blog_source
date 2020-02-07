@@ -1,5 +1,6 @@
 ---
 title: Kirby Assistant 编年史
+cover: /uploads/blog_title/kirbyassistant.png
 categories:
   - 我的 Android 应用
 abbrlink: a505f9a9

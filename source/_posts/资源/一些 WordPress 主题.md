@@ -1,5 +1,6 @@
 ---
 title: 一些 WordPress 主题
+cover: /uploads/blog_title/一些WordPress主题.png
 tags:
   - WordPress
 categories:

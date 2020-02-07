@@ -1,5 +1,6 @@
 ---
 title: 在 Linux 服务器上使用 coolq
+cover: /uploads/blog_title/在Linux服务器上使用coolq.png
 tags:
   - coolq
   - linux

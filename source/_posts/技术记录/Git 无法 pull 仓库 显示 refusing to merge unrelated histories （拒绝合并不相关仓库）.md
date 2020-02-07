@@ -1,5 +1,6 @@
 ---
 title: Git 无法 pull 仓库 显示 refusing to merge unrelated histories （拒绝合并不相关仓库）
+cover: /uploads/blog_title/Git无法pull仓库.png
 tags: 
   - Git
 categories:

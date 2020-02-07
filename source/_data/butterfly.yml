@@ -10,7 +10,8 @@ menu:
   各种标签: /tags/ || fa fa-tags
   分类专栏: /categories/ || fa fa-folder-open
   小伙伴们: /link/ || fa fa-link
-  关于更多: /about/ || fa fa-heart
+  关于博主: /about/ || fa fa-heart
+  留下足迹: /contact/ || fa fa-comments
   图集||fa fa-list:
     - 相册 || /photos/ || fa fa-home
     - 设定 || /kirbyimage/ || fa fa-home
@@ -19,7 +20,7 @@ menu:
 # ---------------
 favicon: /uploads/favicon-32x32-next.png
 
-# PWA
+# 
 # See https://github.com/JLHwung/hexo-offline
 # ---------------
 # pwa:
@@ -96,7 +97,7 @@ katex:
 baidu_analytics: c3d2934724bf340e28b3e443b496e782
 
 #Google Analytics
-google_analytics:
+google_analytics: UA-157956256-1
 
 
 # Post info settings
@@ -191,9 +192,9 @@ disqus:
   enable: false
   shortname:
 
-laibili:
-  enable: true
-  uid: MTAyMC80NTY5MS8yMjIwMg==
+#laibili:
+#  enable: true
+#  uid: MTAyMC80NTY5MS8yMjIwMg==
 
 # gitalk:
 #   enable: false
@@ -209,15 +210,15 @@ laibili:
 
 # valine comment system. https://valine.js.org
 valine:
-  enable: false # if you want use valine,please set this value is true
-  appId: # leancloud application app id
-  appKey: # leancloud application app key
+  enable: true # if you want use valine,please set this value is true
+  appId: mkXwofMbfYO720xHjY1iGzCh-gzGzoHsz # leancloud application app id
+  appKey: 3POIeGQPSzK4f9k77mDvBoWx # leancloud application app key
   notify: false # valine mail notify (true/false) https://github.com/xCss/Valine/wiki
   verify: false # valine verify code (true/false)
   pageSize: 10 # comment list page size
-  avatar: monsterid # gravatar style https://valine.js.org/#/avatar
+  avatar: identicon # gravatar style https://valine.js.org/#/avatar
   lang: zh-cn # i18n: zh-cn/en
-  placeholder: Please leave your footprints # valine comment input placeholder(like: Please leave your footprints )
+  placeholder: 写一些什么吧 # valine comment input placeholder(like: Please leave your footprints )
   guest_info: nick,mail,link #valine comment header info
   bg: /img/comment_bg.png # valine background
 
@@ -258,7 +259,7 @@ Flink:
   headline: 小伙伴们
   info_headline: 我的 Blog 资料
   name: Blog 名字： 炎忍的博客
-  address: Blog 地址： https://blog.endureblaze.cn/
+  address: Blog 地址： https://blog.endureblaze.cn
   avatar: Blog 头像： https://blog.endureblaze.cn/uploads/avatar.png
   info: Blog 简介： 记录 我的生活 以及更多
   comment: 
@@ -424,7 +425,7 @@ subtitle:
   source: 2
   # (如果有英文逗號' , '，請使用轉義字符 &#44;)
   sub:
-    - 记录 我的生活 以及更多
+    - 记录&#44;我的生活&#44;以及更多
     - 今日事&#44;今日畢
     - Never put off till tomorrow what you can do today
 
@@ -472,7 +473,7 @@ translate:
   #延迟时间,若不在前, 要设定延迟翻译时间, 如100表示100ms,默认为0
   translateDelay: 0
   #博客网址
-  cookieDomain: "https://xxx/"
+  cookieDomain: "https://blog.endureblaze.cn"
   #當文字是簡體時，按鈕顯示的文字
   msgToTraditionalChinese: "繁"
   #當文字是繁體時，按鈕顯示的文字
@@ -490,7 +491,7 @@ darkmode:
 # autoChangeMode: 1  跟隨系統而變化，不支持的瀏覽器/系統將按照時間晚上6點到早上6點之間切換為 dark mode
 # autoChangeMode: 2  只按照時間晚上6點到早上6點之間切換為 dark mode
 # autoChangeMode: false 取消自動切換
-autoChangeMode: true
+autoChangeMode: 2
 
 ####    other     ####
 #------------------------------------------------
@@ -506,14 +507,14 @@ medium_zoom:
 # position 彈窗位置
 # 可選 top-left / top-center / top-right / bottom-left / bottom-center / bottom-right
 snackbar:
-  enable: false
+  enable: true
   position: bottom-left
   bg_light: '#49b1f5' #light mode時彈窗背景
   bg_dark: '#2d3035' #dark mode時彈窗背景
 
 #百度推送
 baidu_push:
-  enable: false
+  enable: true
 
 # https://instant.page/
 # prefetch預加載

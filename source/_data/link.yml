@@ -20,7 +20,7 @@ class:
     5:
       name: 天真的小窝
       link: https://bin.zmide.com/
-      avatar: https://bin.zmide.com/wp-content/uploads/2019/06/2019060619043816.png
+      avatar: https://bin.zmide.com/wp-content/themes/this_bin/img/favicon.ico
     6:
       name: web1n
       link: https://https.vc/
@@ -32,8 +32,12 @@ class:
     8:
       name: 丁丁の店
       link: https://butanediol.github.io
-      avatar: https://butanediol.github.io/medias/logo.png
+      avatar: https://butanediol.github.io/medias/avatar.jpg
     9:
       name: 梧矜的屋
       link: https://www.00oo00.xyz/
-      avater: https://www.00oo00.xyz/favicon.png
+      avatar: https://www.00oo00.xyz/favicon.png
+    10:
+      name: XCLAN's Blog
+      link: https://watashimo.xyz
+      avatar: https://www.watashimo.xyz/img/avatar.jpg

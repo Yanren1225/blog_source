@@ -1,5 +1,6 @@
 ---
 title: Kirby Assistant 2.x.x更新日志
+cover: /uploads/blog_title/kirbyassistant.png
 tags:
   - Kirby Assistant
   - 更新日志

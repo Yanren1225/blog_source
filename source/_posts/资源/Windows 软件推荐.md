@@ -1,5 +1,6 @@
 ---
 title: Windows 软件推荐
+cover: /uploads/blog_title/Windows软件推荐.png
 tags:
   - Windows
   - 软件推荐

@@ -1,5 +1,6 @@
 ---
 title: 实现滑动隐藏 ToolBar 与 BottomNavigation
+cover: /uploads/blog_title/android开发.png
 tags:
   - Android
   - 踩坑

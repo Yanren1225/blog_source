@@ -1,5 +1,6 @@
 ---
 title: 偶然间在B站看到的鬼畜
+cover: /uploads/blog_title/偶然间在B站看到的鬼畜.jpg
 tags:
   - 视频
 categories:

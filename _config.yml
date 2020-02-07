@@ -4,7 +4,7 @@
 
 # Site
 title: 炎忍的博客
-subtitle: 记录 我的生活 以及更多
+subtitle: 记录,我的生活,以及更多
 description: '@EndureBlaze'
 keywords: 汝南京,炎忍,炎忍博客，汝南京博客，炎忍的博客，汝南京的博客，EndureBlaze
 author: 汝南京
@@ -131,3 +131,18 @@ encrypt:
     default_message: 在这里输入密码.
     wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.
     wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.
+
+# offline config passed to sw-precache.
+offline:
+  maximumFileSizeToCacheInBytes: 10485760 # 缓存的最大文件大小，以字节为单位
+  staticFileGlobs:
+    - public/**/*.{js,html,css,png,jpg,gif,svg,webp,eot,ttf,woff,woff2}
+  # 静态文件合集，如果你的站点使用了例如webp格式的文件，请将文件类型添加进去。
+  stripPrefix: public
+  verbose: true
+  runtimeCaching:
+    # CDNs - should be cacheFirst, since they should be used specific versions so should not change
+    - urlPattern: /* # 如果你需要加载CDN资源，请配置该选项，如果没有，可以不配置。
+      handler: cacheFirst
+      options:
+        origin: https://blog.endureblaze.cn # 可替换成你的 url

@@ -1,5 +1,6 @@
 ---
 title: 如何优雅的使用 Material Design 2
+cover: /uploads/blog_title/如何优雅的使用MaterialDesign2.png
 tags:
   - Android
   - Material Design 2
