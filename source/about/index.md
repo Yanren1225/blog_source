@@ -6,6 +6,8 @@ comments: false
 ---
 我是炎忍，坐标西安，喜欢看一些纪录片，喜欢电音，是Furry，也喜欢瞎折腾一些数码产品~~当然没有钱去折腾~~，是个个人开发者。有时候也会看看书、玩玩游戏。本站主要会记录一些我的学习编程踩坑、日常生活、碎碎念、资源备忘与转载文章。
 
+<div class="aplayer" data-id="3111066489" data-server="netease" data-type="playlist" data-autoplay="false" "data-mode:circulation"></div>
+
 ---
 
 ## 我的项目

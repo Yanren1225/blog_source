@@ -33,11 +33,15 @@ class:
       name: 丁丁の店
       link: https://butanediol.github.io
       avatar: https://butanediol.github.io/medias/avatar.jpg
+      descr: 丁二的日常在售
+
     9:
       name: 梧矜的屋
       link: https://www.00oo00.xyz/
       avatar: https://www.00oo00.xyz/favicon.png
+      descr: 建议改成：梧 矜 的 屋
     10:
       name: XCLAN's Blog
       link: https://watashimo.xyz
       avatar: https://www.watashimo.xyz/img/avatar.jpg
+      descr: A Computer Science Student 

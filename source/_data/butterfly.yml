@@ -85,11 +85,13 @@ local_search:
 # ---------------
 mathjax:
   enable: false
+  per_page: false
 
 # KaTeX
 # ---------------
 katex:
   enable: false
+  per_page: false
   hide_scrollbar: true
 
 ####   Analysis    ####
@@ -221,6 +223,7 @@ valine:
   placeholder: 写一些什么吧 # valine comment input placeholder(like: Please leave your footprints )
   guest_info: nick,mail,link #valine comment header info
   bg: /img/comment_bg.png # valine background
+  count: false # top_img顯示評論數
 
 #####     Footer Settings    ####
 # ------------------------------------
@@ -279,6 +282,7 @@ reward:
 related_post:
   enable: true
   limit: 6 # 顯示推薦文章數目
+  date_type: created # or created or updated 文章日期顯示创建日或者更新日
 
 ####    美化/效果    ####
 #--------------------------------
@@ -301,8 +305,12 @@ theme_color:
 # 主頁設置
 # 默認top_img全屏，site_info在中間
 # 使用默認, 都無需填寫（建議默認）
-index_site_info_top:  #主頁標題距離頂部距離  例如 300px/300em/300rem/10%
 index_top_img_height: #主頁top_img高度 例如 300px/300em/300rem  不能使用百分比
+
+# 主頁文章COVER顯示位置
+# 三個值可配置 left , right , both
+# left(全部圖片顯示在左邊)，right(全部圖片顯示在右邊)，both(左右左右順序顯示)
+index_post_cover: both
 
 # category和tag頁的UI設置
 # index 值代表 UI將與首頁的UI一樣
@@ -341,7 +349,7 @@ canvas_ribbon_piao:
 # https://github.com/hustcc/canvas-nest.js
 canvas_nest:
   enable: true
-  color: '0,0,255' #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
+  color: "0,0,255" #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
   opacity: 0.7 # the opacity of line (0~1), default: 0.5.
   zIndex: -1 # z-index property of the background, default: -1.
   count: 99 # the number of lines, default: 99.
@@ -350,6 +358,8 @@ canvas_nest:
 # 打字效果
 activate_power_mode:
   enable: false
+  colorful: true # 冒光特效
+  shake: true # 抖動特效
 
 # 鼠標點擊效果
 # 避免卡頓，建議只開啓一個
@@ -432,6 +442,9 @@ subtitle:
 
 ####    側邊欄    ####
 #-------------------------------------
+# 手機頁面（ 顯示寬度 < 768px ）是否顯示aside内容
+aside_mobile: true
+
 # 側邊欄顯示設置
 aside:
   position: left # left or right
@@ -445,7 +458,7 @@ aside:
 
 # 網站公告
 announcement:
-  content: 这是一个假的公告
+  content: 💃Be my guest!👋~
 
 # busuanzi count for PV / UV in site
 # 訪問人數
@@ -500,7 +513,11 @@ autoChangeMode: 2
 # 默認為 fancybox http://fancyapps.com/fancybox/3/
 # 可以選擇改爲 medium_zoom https://github.com/francoischalifour/medium-zoom
 medium_zoom:
-  enable: false
+  enable: true
+
+# fancybox http://fancyapps.com/fancybox/3/
+fancybox:
+  enable: true
 
 # Snackbar 彈窗
 # https://github.com/polonel/SnackBar
@@ -509,8 +526,8 @@ medium_zoom:
 snackbar:
   enable: true
   position: bottom-left
-  bg_light: '#49b1f5' #light mode時彈窗背景
-  bg_dark: '#2d3035' #dark mode時彈窗背景
+  bg_light: "#49b1f5" #light mode時彈窗背景
+  bg_dark: "#2d3035" #dark mode時彈窗背景
 
 #百度推送
 baidu_push:
@@ -555,7 +572,9 @@ twitter_meta: true
 # https://i.loli.net/2019/09/08/2wbFJEKloisRvhj.png
 Open_Graph_meta: true
 
-
+alayer:
+  meting: true
+  asset_inject: false
 # CDN
 # 網站必須
 # 可根據需要自行添加js/css
@@ -563,14 +582,21 @@ CDN_USE:
   css:
     - /css/index.css
     - https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css
-    #- https://use.fontawesome.com/releases/v5.8.1/css/all.css #fontawesomeV5_css
+    #-  - https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css  #fontawesomeV5_css
+    - https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.css
+    - https://cdn.bootcss.com/dplayer/1.22.2/DPlayer.min.css
 
   js:
-    - https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js  #/js/third-party/jquery.min.js
+    - https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js   #/js/third-party/jquery.min.js
     - /js/utils.js
     - /js/main.js
     - /js/baidupush.js
+    - /js/crash_cheat.js
     - https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/autoload.js
+    - https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.js
+    - https://cdn.jsdelivr.net/npm/meting@1.2/dist/Meting.min.js
+    - https://cdn.bootcss.com/dplayer/1.22.2/DPlayer.min.js
+    - https://cdn.jsdelivr.net/gh/yremp/yremp-js@1.5/sakura.js
 
 
 # CDN
@@ -580,16 +606,16 @@ CDN:
   blueimp_md5: https://cdn.jsdelivr.net/npm/blueimp-md5@2.10.0/js/md5.min.js
   gitalk: https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js
   gitalk_css: https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.css
-  valine: https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js
+  valine: https://cdn.jsdelivr.net/gh/xaoxuu/volantis/js/volantis.min.js # https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js
 
   # share
   addtoany: https://static.addtoany.com/menu/page.js
-  sharejs: https://cdn.jsdelivr.net/npm/social-share.js@1.0.16/dist/js/social-share.min.js
-  sharejs_css: https://cdn.jsdelivr.net/npm/social-share.js@1.0.16/dist/css/share.min.css
+  sharejs: https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js
+  sharejs_css: https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css
 
   #search
-  algolia_search: https://cdn.jsdelivr.net/npm/instantsearch.js@2.1.1/dist/instantsearch.min.js
-  algolia_search_css: https://cdn.jsdelivr.net/npm/instantsearch.js@2.1.1/dist/instantsearch.min.css
+  algolia_search: https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.5/dist/instantsearch.min.js
+  algolia_search_css: https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.5/dist/instantsearch.min.css
   algolia_js: /js/search/algolia.js
   local_search: /js/search/local-search.js
 
@@ -602,30 +628,28 @@ CDN:
   busuanzi: //busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
 
   # 背景特效
-  canvas_ribbon: /js/third-party/canvas-ribbon.js # https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@latest/js/canvas-ribbon.js
-  canvas_ribbon_piao: /js/third-party/piao.js # https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@latest/js/piao.js
-  canvas_nest: /js/third-party/canvas-nest.js  # https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@latest/js/canvas-nest.js 
-
+  canvas_ribbon: https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/js/canvas-ribbon.js
+  canvas_ribbon_piao: https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/js/piao.js
+  canvas_nest: https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/js/canvas-nest.js
+  
   lazyload: https://cdn.jsdelivr.net/npm/lazysizes@latest/lazysizes.min.js
   instantpage: https://cdn.jsdelivr.net/npm/instant.page@latest/instantpage.min.js
 
   typed: https://cdn.jsdelivr.net/npm/typed.js
   js_cookies: https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js
 
-  fancybox_css: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css
-  fancybox: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js  #/js/third-party/jquery.fancybox.min.js
+  f  fancybox_css: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css
+  fancybox: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js
   medium_zoom: https://cdn.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js
 
-  snackbar_css: https://cdn.jsdelivr.net/npm/node-snackbar@0.1.15/dist/snackbar.min.css
-  snackbar: https://cdn.jsdelivr.net/npm/node-snackbar@0.1.15/dist/snackbar.min.js
+  snackbar_css: https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css
+  snackbar: https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js
 
   #鼠标点击特效
-  anime: https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js  #/js/third-party/anime.min.js
-  activate_power_mode: /js/third-party/activate-power-mode.js # https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@latest/js/activate-power-mode.js
-  fireworks: /js/third-party/fireworks.js # https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@latest/js/fireworks.js
-  click_heart: /js/third-party/click_heart.js # https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@latest/js/click_heart.js
-  ClickShowText: /js/third-party/ClickShowText.js # https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@latest/js/ClickShowText.js
+  anime: https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js
+  activate_power_mode: https://cdn.jsdelivr.net/npm/activate-power-mode/dist/activate-power-mode.min.js
+  fireworks: https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/js/fireworks.js
+  click_heart: https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/js/click_heart.js
+  ClickShowText: https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/js/ClickShowText.js
 
   translate: /js/tw_cn.js
-  runtimeshow: js/runtimeshow.js
-
