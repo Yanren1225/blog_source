@@ -4,13 +4,45 @@ date: 2019-08-01 12:03:32
 type: "about"
 comments: false
 ---
-我是炎忍，坐标西安，喜欢看一些纪录片，喜欢电音，是Furry，也喜欢瞎折腾一些数码产品~~当然没有钱去折腾~~，是个个人开发者。有时候也会看看书、玩玩游戏。本站主要会记录一些我的学习编程踩坑、日常生活、碎碎念、资源备忘与转载文章。
+* 常用 ID：`汝南京`，`炎忍`，`EndureBlaze`；
+* 人在学校，大专生
+* 「你不关心政治，政治也会来关心你」；
+* 我想把这个 BLOG 的排版弄的规范点（[参考这个](https://github.com/sparanoid/chinese-copywriting-guidelines)）；
+* 任豚~~塞尔达粉丝就是我~~，数码爱好者，Furry；
+* ~~精通 BUG 驱动开发的面向搜索引擎编程~~；
+* 只会做 Android ~~我好菜啊~~；
+* 半个米粉，来听 [Are you OK](https://www.bilibili.com/video/av2271112)；
+* 热爱自由开放、美好与简单优雅的事物。
+
+# 欢迎来访
+虽然现在是独立博客式微的时代，但无论你是循关键词自搜索引擎而来，还是从 SNS、朋友引荐而来，能在众多博客中与你相遇，也未尝不是一种缘分。欢迎你！
+
+炎忍的博客 是我的个人独立博客，基本上啥都写。原创内容多为技术分享、踩坑记录与日常吐槽，~~偶尔也会写点正经文字~~，~~反正一年也不会写多少~~。
+
+# 联系方式
+我还算比较注重个人隐私，属于那种闲着没事会搜索自己 ID 的人。
+
+你可以通过这些方式找到我：
+
+* **电子邮箱：`nihaocun@163.com`**
+* 即时通讯： Telegram（[@EndureBlaze](https://t.me/endureblaze)）
+* 开源网站：Github（[@EndureBlaze](https://github.com/endureblaze)）
+* 视频网站：哔哩哔哩（[@汝南京](https://space.bilibili.com/21696748)）
+
+~~更多尚在补全中~~
+
+# 来听歌啊
+
+网易云音乐 [@汝南京](https://music.163.com/#/user/home?id=323833067)
 
 <div class="aplayer" data-id="3111066489" data-server="netease" data-type="playlist" data-autoplay="false" "data-mode:circulation"></div>
 
 ---
 
-## 我的项目
+# 我的项目
+
+这是我写的一些项目
+
 |项目名称|链接|简介|
 | :------------ |:---------------:| :-----|
 | **Kirby Assistant** | [官网](https://kirby.endureblaze.cn/) [酷安]() [Github](https://github.com/EndureBlaze/Kirby-Assistant) | 一个方便在安卓手机上玩星之卡比的工具 |
@@ -21,6 +53,7 @@ comments: false
 | **安卓壁纸精选**(合作项目) | [酷安](https://www.coolapk.com/apk/com.ifreedomer.lovewallpaper) | 安卓壁纸精选，精挑洗选只为你 |
 
 ---
-来玩游戏啊  
+# 来玩游戏啊 
+
 * steam：endureblaze
 * 守望先锋：汝南京#5207

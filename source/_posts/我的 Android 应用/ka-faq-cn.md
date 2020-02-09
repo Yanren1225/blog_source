@@ -3,7 +3,7 @@ title: ka_faq_cn
 cover: /uploads/blog_title/kirbyassistant.png
 categories:
   - 我的 Android 应用
-sage: true
+hidden: true
 tags:
   - FAQ
 abbrlink: ka_faq_cn

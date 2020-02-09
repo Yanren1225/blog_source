@@ -3,7 +3,7 @@ title: moekirby 计划表
 categories:
   - 随手记
 abbrlink: moekirby
-sage: true
+hidden: true
 date: 2019-10-22 19:29:13
 tags:
 ---
