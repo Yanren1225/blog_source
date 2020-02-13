@@ -13,8 +13,9 @@ menu:
   关于博主: /about/ || fa fa-heart
   留下足迹: /contact/ || fa fa-comments
   图集||fa fa-list:
-    - 相册 || /photos/ || fa fa-home
-    - 设定 || /kirbyimage/ || fa fa-home
+    - 相册 || /gallery/photos/ || fa fa-picture-o
+    - 设定 || /gallery/kirbyimage/ || fa fa-picture-o
+    - 壁纸 || /gallery/wallpaper/ || fa fa-picture-o
 
 # Favicon
 # ---------------
@@ -264,7 +265,7 @@ Flink:
   name: Blog 名字： 炎忍的博客
   address: Blog 地址： https://blog.endureblaze.cn
   avatar: Blog 头像： https://blog.endureblaze.cn/uploads/avatar.png
-  info: Blog 简介： 记录 我的生活 以及更多
+  info: Blog 简介： 心之所愿，无所不成。
   comment: 
 
 # 打賞按鈕
@@ -435,9 +436,8 @@ subtitle:
   source: 2
   # (如果有英文逗號' , '，請使用轉義字符 &#44;)
   sub:
-    - 记录&#44;我的生活&#44;以及更多
-    - 今日事&#44;今日畢
-    - Never put off till tomorrow what you can do today
+    - 心之所愿&#44;无所不成。
+    - 同学习&#44;共成长&#44;不将就&#44;不妥协！
 
 
 ####    側邊欄    ####
@@ -513,7 +513,7 @@ autoChangeMode: 2
 # 默認為 fancybox http://fancyapps.com/fancybox/3/
 # 可以選擇改爲 medium_zoom https://github.com/francoischalifour/medium-zoom
 medium_zoom:
-  enable: true
+  enable: false
 
 # fancybox http://fancyapps.com/fancybox/3/
 fancybox:
@@ -638,7 +638,7 @@ CDN:
   typed: https://cdn.jsdelivr.net/npm/typed.js
   js_cookies: https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js
 
-  f  fancybox_css: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css
+  fancybox_css: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css
   fancybox: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js
   medium_zoom: https://cdn.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js
 

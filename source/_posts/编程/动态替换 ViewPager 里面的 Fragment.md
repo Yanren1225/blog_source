@@ -12,8 +12,9 @@ abbrlink: 6b0c894
 date: 2019-08-17 13:40:28
 ---
 最近在重写 Kirby Assistant 过程中又遇到了需要动态替换 ViewPager 的某个 Fragment 的需求，因为之前的是直接在同一个布局里暴力替换的，但是这次因为是用其他方法实现的，当然不能用以前的方法了，摸索了一段时间后终于搞定了，现在把可以用的方法放在下面
-<!--more-->
-## 1. 准备过程
+
+# 准备过程
+
 首先需要在布局中添加 ViewPager 
 
 ``` xml
@@ -22,6 +23,7 @@ date: 2019-08-17 13:40:28
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 ```
+
 然后给 ViewPager 写一个 ViewPagerAdapter 并且继承自 FragmentPagerAdapter
 
 ``` java
@@ -29,7 +31,9 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
 //其他东西
 }
 ```
-## 2. 重写 ViewPagerAdapter
+
+# 重写 ViewPagerAdapter
+
 具体看代码的注释，有注释的都是需要注意的
 
 ``` java
@@ -112,11 +116,15 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
     }
 }
 ```
-## 3. 注意问题
+
+# 注意问题
+
 如果出现替换后出现某个碎片的布局空白了，那就设置一个 ViewPager 的缓存属性
 
 ``` java
 main_fragment_viewpager.setOffscreenPageLimit(4);//4代表缓存4页，根据实际情况调整
 ```
-## 4. 结尾
+
+# 结尾
+
 如果有代码什么问题可以向我提出

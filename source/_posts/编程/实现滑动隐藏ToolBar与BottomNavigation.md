@@ -11,15 +11,18 @@ abbrlink: 919199f6
 date: 2019-08-09 23:23:00
 ---
 最近在重写 Kirby Assistant 的时候需要实现像图中的效果，那这样的效果具体应该怎么实现呢，快点进来看看吧。(图在里面)
-<!--more-->
-(这里有图，Github 可能速度比较慢)
+
+(这里有图，GitHub 可能速度比较慢)
 ![最终效果](/blog_image/实现滑动隐藏ToolBar与BottomNavigation/最终效果.gif)
-## 1. 准备过程
-首先这样的效果都是基`CoordinatorLayout`来实现的，所以先在`app`模块下添加如下依赖
+
+# 准备过程
+
+首先这样的效果都是基 `CoordinatorLayout` 来实现的，所以先在 `app` 模块下添加如下依赖
 
 ``` gradle
 implementation 'androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01'//版本可能不是最新，根据自身情况选择新版
 ```
+
 然后将需要实现这个效果界面的布局最顶层的布局替换为`CoordinatorLayout`即
 
 ``` xml
@@ -33,8 +36,11 @@ implementation 'androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01'//版�
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
 ```
+
 到此，准备过程就完成了
-## 2. 实现隐藏 Toolbar
+
+# 实现隐藏 Toolbar
+
 首先在上面的基础上需要添加 Toolbar 组件，如
 
 ``` xml
@@ -68,14 +74,15 @@ implementation 'androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01'//版�
 	
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
 ```
-那么这里需要说明一下`app:layout_scrollFlags="scroll|enterAlways|snap"`是什么意思，这个实际上是用来控制 AppBarLayout 内部组件的行为。		
 
-其中,`scroll`表示当界面向上滚动的时候, Toolbar会
+那么这里需要说明一下 `app:layout_scrollFlags="scroll|enterAlways|snap"` 是什么意思，这个实际上是用来控制 AppBarLayout 内部组件的行为。		
+
+其中,`scroll` 表示当界面向上滚动的时候, Toolbar会
 跟着一起向上滚动并实现隐藏。
 
-`enterAlways`表示当界面向下滚动的时候, Toolbar会跟着一起向下滚动并重新显示。
+`enterAlways` 表示当界面向下滚动的时候, Toolbar会跟着一起向下滚动并重新显示。
 
-`snap`表示当 Toolbar还没有完全隐藏或显示的时候,会根据当前滚动的距离,自动选择是隐藏还是显示。
+`snap` 表示当 Toolbar还没有完全隐藏或显示的时候,会根据当前滚动的距离,自动选择是隐藏还是显示。
 
 当然还有其他参数，但是比较少用
 
@@ -101,9 +108,11 @@ implementation 'androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01'//版�
 	
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
 ```
+
 可以看到这里指定了一个` app:layout_behavior="@string/appbar_scrolling_view_behavior"`那么这个属性实际上是谷歌封装好的一个 Behavior，已经完成了 Toolbar 隐藏所有动画效果。
 
-## 3. 实现隐藏 BottomNavigation
+# 实现隐藏 BottomNavigation
+
 BottomNavigation 的话，谷歌没有进行封装，需要我们自己实现，那么先在布局添加 BottomNavigation 组件
 
 ``` xml
@@ -129,7 +138,8 @@ BottomNavigation 的话，谷歌没有进行封装，需要我们自己实现，
 	
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
 ```
-那么可以看到这里指定了一个` app:layout_behavior="cn.endureblaze.kirby.main.BottomNavigationBehavior"`
+
+那么可以看到这里指定了一个 `app:layout_behavior="cn.endureblaze.kirby.main.BottomNavigationBehavior"`
 这实际上是指定了一个自定义 behavior，数值需要填上绝对路径
 
 那么来看看 BottomNavigationBehavior 是怎么写的吧
@@ -262,11 +272,13 @@ public class BottomNavigationBehavior<V extends View>  extends CoordinatorLayout
     }
 }
 ```
+
 那么这个 behavior 不仅实现了 BottomNavigation 的西东隐藏，而且添加了 snap 效果，并且整合了 snackbar 与 BottomNavigation 之间的关系，这样就不会重叠了
 
 snap 效果可以通过`private boolean isSnappingEnabled = true//false是关闭;`来控制
 
-## 4. FloatingActionButton 呢？
+# FloatingActionButton 呢？
+
 上面的这些都是忽略了 FAB 的情况下，那么 FAB 应该如何实现呢？当然也是靠自定义 behavior 不过稍稍有点不同，一起来看看吧
 
 首先添加布局
@@ -298,6 +310,7 @@ snap 效果可以通过`private boolean isSnappingEnabled = true//false是关闭
 		
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
 ```
+
 这里有几个属性需要注意一下
 
 ``` xml
@@ -305,9 +318,9 @@ snap 效果可以通过`private boolean isSnappingEnabled = true//false是关闭
    app:layout_anchorGravity="top|end"
    app:layout_behavior="cn.endureblaze.kirby.main.BottomNavigationFABBehavior"
 ```
-layout_anchor 是用来指定一个 FAB 的锚点，即以哪个控件为参照点设置位置		
-layout_anchorGravity 设置 FAB 相对锚点的位置，值有 bottom、center、right、left、top等
-layout_behavior 依然是设置自定义 behavior，不再赘述
+`layout_anchor` 是用来指定一个 FAB 的锚点，即以哪个控件为参照点设置位置		
+`layout_anchorGravity` 设置 FAB 相对锚点的位置，值有 bottom、center、right、left、top等
+`layout_behavior` 依然是设置自定义 behavior，不再赘述
 
 现在看看 BottomNavigationFABBehavior 有什么内容吧
 
@@ -359,9 +372,10 @@ public class BottomNavigationFABBehavior<V extends View>  extends CoordinatorLay
     }
 
 }
-
 ```
+
 可以看到还是比较简单的，主要是实现了与底栏的交互还有 snackbar 的交互
 
-## 5. 结尾
-那这个实现是我参考了其他的博文以及 Github 的一些项目总结出来的，如果那里有问题还请指出
+# 结尾
+
+那这个实现是我参考了其他的博文以及 GitHub 的一些项目总结出来的，如果那里有问题还请指出

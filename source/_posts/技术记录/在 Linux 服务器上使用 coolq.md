@@ -1,52 +1,67 @@
 ---
-title: 在 Linux 服务器上使用 coolq
+title: 在 Linux 服务器上使用 酷Q
 cover: /uploads/blog_title/在Linux服务器上使用coolq.png
 tags:
-  - coolq
+  - 酷Q
   - linux
 categories:
   - 技术记录
 abbrlink: 2bdd4eaf
 date: 2019-11-17 20:08:29
 ---
-众所周知 coolq 是 Windows 平台下的， Linux 下要使用还是有难度的，好在官方做出了了 docker 镜像，这样就可以在 docker 直接运行了
-### 1. 准备
+众所周知 酷Q 是 Windows 平台下的， Linux 下要使用还是有难度的，好在官方做出了了 docker 镜像，这样就可以在 docker 直接运行了
+# 准备
 
 * 一台 Linux 服务器 (这里用来演示的系统是 CentOS 7.6 当然其他系统也ok)
 * docker
-* coolq 容器
+* 酷Q 容器
 
-### 2. 安装及运行 docker
+# 安装及运行 docker
+
 在 CentOS 下直接使用 yum 安装即可
+
 ``` bash
 sudo yum install docker
 ```
+
 安装之后如果提示
+
 ``` bash
 Cannot connect to the Docker daemon. Is the docker daemon running on this host?
 ```
+
 这是因为 docker 还没有在运行
+
 sudo 运行一下 docker 就正常了
+
 ``` bash
 sudo systemctl start docker
 ```
-### 3. 下载 coolq 镜像，后台运行容器
+
+### 3. 下载 酷Q 镜像，后台运行容器
+
 使用下面的命令获取镜像
+
 ``` bash
 sudo docker pull coolq/wine-coolq
 ```
+
 这个速度取决于你的服务器带宽
 
-创建一个用于存放（映射）coolq数据的目录（可以理解为数据卷？），用于持久化存放coolq（酷Q应用）的数据
+创建一个用于存放（映射）coolq 数据的目录（可以理解为数据卷？），用于持久化存放 coolq（酷Q应用）的数据
+
 ``` bash 
 sudo mkdir /coolq-data
 ```
+
 这一步很重要，因为数据是最重要的，而且后面你的酷Q应用都要上传到此目录才能应用上的
 
 后台运行 coolq 容器
+
 ``` bash
 sudo docker run --name=coolq -d -p 8080:9000 -v /coolq-data:/home/user/coolq -e VNC_PASSWD=12345678 -e COOLQ_ACCOUNT=1000000000 coolq/wine-coolq
 ```
+
 其中部分参数根据自己的需求替换：
 
 远程监听端口
@@ -62,7 +77,7 @@ sudo docker run --name=coolq -d -p 8080:9000 -v /coolq-data:/home/user/coolq -e 
 
 这里要注意的是，首先你远程监听的端口，也就是自定义的web端口需要在服务器防火墙和云安全组都放行
 
-其次，-d 指的是后台运行容器，-v后面接的就是将服务器的自己定义的coolq数据目录映射到容器内的/home/user/coolq目录，-e是设置容器的系统环境
+其次，-d 指的是后台运行容器，-v后面接的就是将服务器的自己定义的酷Q数据目录映射到容器内的/home/user/coolq目录，-e是设置容器的系统环境
 
 因为我们后面要通过vnc连接，所以要指定VNC_PASSWD
 

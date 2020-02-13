@@ -15,18 +15,20 @@ comments: false
 * 热爱自由开放、美好与简单优雅的事物。
 
 # 欢迎来访
+
 虽然现在是独立博客式微的时代，但无论你是循关键词自搜索引擎而来，还是从 SNS、朋友引荐而来，能在众多博客中与你相遇，也未尝不是一种缘分。欢迎你！
 
 炎忍的博客 是我的个人独立博客，基本上啥都写。原创内容多为技术分享、踩坑记录与日常吐槽，~~偶尔也会写点正经文字~~，~~反正一年也不会写多少~~。
 
 # 联系方式
+
 我还算比较注重个人隐私，属于那种闲着没事会搜索自己 ID 的人。
 
 你可以通过这些方式找到我：
 
 * **电子邮箱：`nihaocun@163.com`**
-* 即时通讯： Telegram（[@EndureBlaze](https://t.me/endureblaze)）
-* 开源网站：Github（[@EndureBlaze](https://github.com/endureblaze)）
+* 即时通讯：Telegram（[@EndureBlaze](https://t.me/endureblaze)）
+* 开源网站：GitHub（[@EndureBlaze](https://github.com/endureblaze)）
 * 视频网站：哔哩哔哩（[@汝南京](https://space.bilibili.com/21696748)）
 
 ~~更多尚在补全中~~
@@ -45,15 +47,16 @@ comments: false
 
 |项目名称|链接|简介|
 | :------------ |:---------------:| :-----|
-| **Kirby Assistant** | [官网](https://kirby.endureblaze.cn/) [酷安]() [Github](https://github.com/EndureBlaze/Kirby-Assistant) | 一个方便在安卓手机上玩星之卡比的工具 |
-| **GlideCache** | [Github](https://github.com/EndureBlaze/GlideCache) | 一个可以方便快捷操作 Glide 本地缓存的开源库  |
-| **ExecuteShell** | [Github](https://github.com/EndureBlaze/ExecuteShell) | 一个可以方便的执行shell命令的Android开源库  |
-| **快否激活器** | [酷安](https://www.coolapk.com/apk/237389) [Github](https://github.com/EndureBlaze/ActivateBenchaf) | 一个第三方的快否激活器 |
-| **记时光**(合作项目) | [酷安](https://www.coolapk.com/apk/com.ifreedomer.timenote) | 这是一个小巧的日记app 帮你记录美好的每一天 |
-| **安卓壁纸精选**(合作项目) | [酷安](https://www.coolapk.com/apk/com.ifreedomer.lovewallpaper) | 安卓壁纸精选，精挑洗选只为你 |
+| **Kirby Assistant** | [官网](https://kirby.endureblaze.cn/) [酷安]() [GitHub](https://github.com/EndureBlaze/Kirby-Assistant) | 一个方便在安卓手机上玩星之卡比的工具 |
+| **GlideCache** | [GitHub](https://github.com/EndureBlaze/GlideCache) | 一个可以方便快捷操作 Glide 本地缓存的开源库  |
+| **ExecuteShell** | [GitHub](https://github.com/EndureBlaze/ExecuteShell) | 一个可以方便的执行 Shell 命令的Android开源库  |
+| **快否激活器** | [酷安](https://www.coolapk.com/apk/237389) [GitHub](https://github.com/EndureBlaze/ActivateBenchaf) | 一个第三方的快否激活器 |
+| **记时光** (合作项目) | [酷安](https://www.coolapk.com/apk/com.ifreedomer.timenote) | 这是一个小巧的日记 App 帮你记录美好的每一天 |
+| **安卓壁纸精选** (合作项目) | [酷安](https://www.coolapk.com/apk/com.ifreedomer.lovewallpaper) | 安卓壁纸精选，精挑洗选只为你 |
 
 ---
 # 来玩游戏啊 
 
 * steam：endureblaze
 * 守望先锋：汝南京#5207
+* osu!：[endureblaze](https://osu.ppy.sh/users/14037205)
