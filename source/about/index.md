@@ -6,6 +6,7 @@ comments: false
 ---
 * 常用 ID：`汝南京`，`炎忍`，`EndureBlaze`；
 * 人在学校，大专生
+* [INFP-T](https://www.16personalities.com/ch/infp-%E4%BA%BA%E6%A0%BC)
 * 「你不关心政治，政治也会来关心你」；
 * 我想把这个 BLOG 的排版弄的规范点（[参考这个](https://github.com/sparanoid/chinese-copywriting-guidelines)）；
 * 任豚~~塞尔达粉丝就是我~~，数码爱好者，Furry；
@@ -30,6 +31,8 @@ comments: false
 * 即时通讯：Telegram（[@EndureBlaze](https://t.me/endureblaze)）
 * 开源网站：GitHub（[@EndureBlaze](https://github.com/endureblaze)）
 * 视频网站：哔哩哔哩（[@汝南京](https://space.bilibili.com/21696748)）
+
+这是我的 [PGP](https://gist.github.com/EndureBlaze/ac9baa5cc952f7425cfebdcac2f3ecee) 公钥，指纹为：`B28684BECADF1E259607D3CBCE3C4F005627FE06`
 
 ~~更多尚在补全中~~
 

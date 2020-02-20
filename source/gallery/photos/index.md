@@ -3,7 +3,8 @@ title: 相册
 type: "picture"
 comments: true
 ---
+
 {% gallery %}
-![](/gallery/photos/images/0.jpg)   
-![](/gallery/photos/images/wallhaven-p268l9.png)   
+![0](/gallery/photos/0.jpg)
+![wallhaven-p268l9](/gallery/photos/wallhaven-p268l9.png)
 {% endgallery %}
