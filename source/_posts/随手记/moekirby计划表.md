@@ -3,7 +3,7 @@ title: moekirby 计划表
 categories:
   - 随手记
 abbrlink: moekirby
-hidden: true
+hide: true
 date: 2019-10-22 19:29:13
 tags:
 ---
@@ -15,19 +15,21 @@ tags:
 
 ### 萌娘百科接坑列表
 
-* <font color=#0000FF >魔法洛亚：</font>悠二芒
-* <font color=#0000FF >头巾瓦豆鲁迪：</font>F3
-* <font color=#0000FF >阿朵莱尼：</font>樱木果
-* **星之梦**：晓忙
-* **樱井政博**：刺客王边城
+- <font color=#0000FF >魔法洛亚：</font>悠二芒
+- <font color=#0000FF >头巾瓦豆鲁迪：</font>F3
+- <font color=#0000FF >阿朵莱尼：</font>樱木果
+- **星之梦**：晓忙
+- **樱井政博**：刺客王边城
 
 ### 待接坑
-* <font color=#0000FF >魅塔骑士</font>
-* <font color=#0000FF >帝帝帝大王</font>
 
-### 计划挖坑 
+- <font color=#0000FF >魅塔骑士</font>
+- <font color=#0000FF >帝帝帝大王</font>
+
+### 计划挖坑
 
 ### 其他事项
-* <font color=#0000FF >蓝色</font>为10月19日群公告提及的角色（重编）
-* **加粗**为新坑
-* ***斜体加粗***为大范围扩充
+
+- <font color=#0000FF >蓝色</font>为 10 月 19 日群公告提及的角色（重编）
+- **加粗**为新坑
+- **_斜体加粗_**为大范围扩充
