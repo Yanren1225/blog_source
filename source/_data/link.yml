@@ -50,3 +50,8 @@ class:
       link: http://epors.cn/
       avatar: https://secure.gravatar.com/avatar/3c622ef95f28da892afe86114e7de48d?s=80&r=G&d=
       descr: 我喜欢音乐，却学了很多计算机知识
+    12:
+      name: 小林卡比的技术分享
+      link: https://blog.zerokirby.cn/
+      avatar: https://blog.zerokirby.cn/img/avatar.jpg
+      descr:

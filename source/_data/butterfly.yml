@@ -164,7 +164,7 @@ post_copyright:
 
 # 自動節選
 auto_excerpt:
-  enable: true
+  enable: ture
   length: 150
 
 ####    Share System    ####
