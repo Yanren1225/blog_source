@@ -156,3 +156,8 @@ hide_posts:
   public_generators: []
   # 为隐藏的文章添加 noindex meta 标签，阻止搜索引擎收录
   noindex: true
+
+aplayer:
+  meting: true
+  asset_inject: false
+  skip_render: [js/*]

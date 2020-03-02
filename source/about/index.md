@@ -4,16 +4,16 @@ date: 2019-08-01 12:03:32
 type: "about"
 comments: false
 ---
-* 常用 ID：`汝南京`，`炎忍`，`EndureBlaze`；
-* 人在学校，大专生
-* [INFP-T](https://www.16personalities.com/ch/infp-%E4%BA%BA%E6%A0%BC)
-* 「你不关心政治，政治也会来关心你」；
-* 我想把这个 BLOG 的排版弄的规范点（[参考这个](https://github.com/sparanoid/chinese-copywriting-guidelines)）；
-* 任豚~~塞尔达粉丝就是我~~，数码爱好者，Furry；
-* ~~精通 BUG 驱动开发的面向搜索引擎编程~~；
-* 只会做 Android ~~我好菜啊~~；
-* 半个米粉，来听 [Are you OK](https://www.bilibili.com/video/av2271112)；
-* 热爱自由开放、美好与简单优雅的事物。
+- 常用 ID：`汝南京`，`炎忍`，`EndureBlaze`；
+- 人在学校，大专生
+- [INFP-T](https://www.16personalities.com/ch/infp-%E4%BA%BA%E6%A0%BC)
+- 「你不关心政治，政治也会来关心你」；
+- 我想把这个 BLOG 的排版弄的规范点（[参考这个](https://github.com/sparanoid/chinese-copywriting-guidelines)）；
+- 任豚~~塞尔达粉丝就是我~~，数码爱好者，Furry；
+- ~~精通 BUG 驱动开发的面向搜索引擎编程~~；
+- 只会做 Android ~~我好菜啊~~；
+- 半个米粉，来听 [Are you OK](https://www.bilibili.com/video/av2271112)；
+- 热爱自由开放、美好与简单优雅的事物。
 
 # 欢迎来访
 
@@ -27,10 +27,10 @@ comments: false
 
 你可以通过这些方式找到我：
 
-* **电子邮箱：`nihaocun@163.com`**
-* 即时通讯：Telegram（[@EndureBlaze](https://t.me/endureblaze)）
-* 开源网站：GitHub（[@EndureBlaze](https://github.com/endureblaze)）
-* 视频网站：哔哩哔哩（[@汝南京](https://space.bilibili.com/21696748)）
+- **电子邮箱：`nihaocun@163.com`**
+- 即时通讯：Telegram（[@EndureBlaze](https://t.me/endureblaze)）
+- 开源网站：GitHub（[@EndureBlaze](https://github.com/endureblaze)）
+- 视频网站：哔哩哔哩（[@汝南京](https://space.bilibili.com/21696748)）
 
 这是我的 [PGP](https://gist.github.com/EndureBlaze/ac9baa5cc952f7425cfebdcac2f3ecee) 公钥，指纹为：`B28684BECADF1E259607D3CBCE3C4F005627FE06`
 
@@ -48,18 +48,19 @@ comments: false
 
 这是我写的一些项目
 
-|项目名称|链接|简介|
-| :------------ |:---------------:| :-----|
-| **Kirby Assistant** | [官网](https://kirby.endureblaze.cn/) [酷安]() [GitHub](https://github.com/EndureBlaze/Kirby-Assistant) | 一个方便在安卓手机上玩星之卡比的工具 |
-| **GlideCache** | [GitHub](https://github.com/EndureBlaze/GlideCache) | 一个可以方便快捷操作 Glide 本地缓存的开源库  |
-| **ExecuteShell** | [GitHub](https://github.com/EndureBlaze/ExecuteShell) | 一个可以方便的执行 Shell 命令的Android开源库  |
-| **快否激活器** | [酷安](https://www.coolapk.com/apk/237389) [GitHub](https://github.com/EndureBlaze/ActivateBenchaf) | 一个第三方的快否激活器 |
-| **记时光** (合作项目) | [酷安](https://www.coolapk.com/apk/com.ifreedomer.timenote) | 这是一个小巧的日记 App 帮你记录美好的每一天 |
-| **安卓壁纸精选** (合作项目) | [酷安](https://www.coolapk.com/apk/com.ifreedomer.lovewallpaper) | 安卓壁纸精选，精挑洗选只为你 |
+| 项目名称                    |                                                  链接                                                   | 简介                                           |
+| :-------------------------- | :-----------------------------------------------------------------------------------------------------: | :--------------------------------------------- |
+| **Kirby Assistant**         | [官网](https://kirby.endureblaze.cn/) [酷安]() [GitHub](https://github.com/EndureBlaze/Kirby-Assistant) | 一个方便在安卓手机上玩星之卡比的工具           |
+| **GlideCache**              |                           [GitHub](https://github.com/EndureBlaze/GlideCache)                           | 一个可以方便快捷操作 Glide 本地缓存的开源库    |
+| **ExecuteShell**            |                          [GitHub](https://github.com/EndureBlaze/ExecuteShell)                          | 一个可以方便的执行 Shell 命令的 Android 开源库 |
+| **快否激活器**              |   [酷安](https://www.coolapk.com/apk/237389) [GitHub](https://github.com/EndureBlaze/ActivateBenchaf)   | 一个第三方的快否激活器                         |
+| **记时光** (合作项目)       |                       [酷安](https://www.coolapk.com/apk/com.ifreedomer.timenote)                       | 这是一个小巧的日记 App 帮你记录美好的每一天    |
+| **安卓壁纸精选** (合作项目) |                    [酷安](https://www.coolapk.com/apk/com.ifreedomer.lovewallpaper)                     | 安卓壁纸精选，精挑洗选只为你                   |
 
 ---
-# 来玩游戏啊 
 
-* steam：endureblaze
-* 守望先锋：汝南京#5207
-* osu!：[endureblaze](https://osu.ppy.sh/users/14037205)
+# 来玩游戏啊
+
+- steam：endureblaze
+- 守望先锋：汝南京#5207
+- osu!：[endureblaze](https://osu.ppy.sh/users/14037205)

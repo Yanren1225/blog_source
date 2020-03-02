@@ -54,4 +54,9 @@ class:
       name: 小林卡比的技术分享
       link: https://blog.zerokirby.cn/
       avatar: https://blog.zerokirby.cn/img/avatar.jpg
-      descr:
+      descr: 分享我软件工程的学习历程 
+    13:
+      name: 阴天
+      link: https://zhykirby.github.io
+      avatar: https://zhykirby.github.io/img/avatar_m.jpg
+      descr: 一身转战三千里，一剑曾当百万师。

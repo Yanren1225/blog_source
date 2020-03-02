@@ -572,9 +572,6 @@ twitter_meta: true
 # https://i.loli.net/2019/09/08/2wbFJEKloisRvhj.png
 Open_Graph_meta: true
 
-alayer:
-  meting: true
-  asset_inject: false
 # CDN
 # 網站必須
 # 可根據需要自行添加js/css
@@ -585,18 +582,18 @@ CDN_USE:
     #-  - https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css  #fontawesomeV5_css
     - https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.css
     - https://cdn.bootcss.com/dplayer/1.22.2/DPlayer.min.css
-
+    
   js:
     - https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js   #/js/third-party/jquery.min.js
     - /js/utils.js
     - /js/main.js
-    - /js/baidupush.js
-    - /js/crash_cheat.js
     - https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/autoload.js
     - https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.js
     - https://cdn.jsdelivr.net/npm/meting@1.2/dist/Meting.min.js
     - https://cdn.bootcss.com/dplayer/1.22.2/DPlayer.min.js
-    - https://cdn.jsdelivr.net/gh/yremp/yremp-js@1.5/sakura.js
+    #- https://cdn.jsdelivr.net/gh/yremp/yremp-js@1.5/sakura.js
+    - /js/baidupush.js
+    - /js/crash_cheat.js
 
 
 # CDN
