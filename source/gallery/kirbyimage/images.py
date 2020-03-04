@@ -13,7 +13,7 @@ for file in os.scandir():
 md_text = "\n{% gallery %}\n"
 
 for image in ls_file:
-    md_path = "!["+os.path.splitext(image)[0]+"]("+str(path2)+"\\"+image+")"
+    md_path = "!["+os.path.splitext(image)[0]+"]("+str(path2)+"\\images\\"+image+")"
     md_text += md_path.replace("\\", "/")+"\n"
 
 md_text += "{% endgallery %}"
