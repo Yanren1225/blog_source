@@ -95,8 +95,8 @@ theme: Butterfly
 deploy:
   - type: git
     repo:
-      github: https://gh_token@github.com:endureblaze/endureblaze.github.io.git
-      coding: https://TJqUiRvigV:co_token@e.coding.net:nhc/nhc.coding.me.git
+      github: git@github.com:endureblaze/endureblaze.github.io.git
+      coding: git@e.coding.net:nhc/nhc.coding.me.git
     branch: master
 
   - type: baidu_url_submitter
