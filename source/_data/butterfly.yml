@@ -9,9 +9,10 @@ menu:
   文章归档: /archives/ || fa fa-archive
   各种标签: /tags/ || fa fa-tags
   分类专栏: /categories/ || fa fa-folder-open
-  小伙伴们: /link/ || fa fa-link
+  友情链接: /link/ || fa fa-link
   关于博主: /about/ || fa fa-heart
   留下足迹: /contact/ || fa fa-comments
+  资源分享: https://pan.endureblaze.cn || fa fa-folder
   图集||fa fa-list:
     - 相册 || /gallery/photos/ || fa fa-picture-o
     - 设定 || /gallery/kirbyimage/ || fa fa-picture-o
@@ -21,7 +22,7 @@ menu:
 # ---------------
 favicon: /uploads/favicon-32x32-next.png
 
-# 
+#
 # See https://github.com/JLHwung/hexo-offline
 # ---------------
 # pwa:
@@ -55,7 +56,7 @@ copy:
 # ---------------
 social:
   fa fa-github: https://github.com/endureblaze
-  fa fa-weibo:  http://weibo.com/nihaocun
+  fa fa-weibo: http://weibo.com/nihaocun
   fa fa-envelope: mailto:nihaocun@163.com
   fa fa-rss: /atom.xml
 
@@ -101,7 +102,6 @@ baidu_analytics: c3d2934724bf340e28b3e443b496e782
 
 #Google Analytics
 google_analytics: UA-157956256-1
-
 
 # Post info settings
 # ---------------
@@ -230,7 +230,7 @@ valine:
 # ------------------------------------
 since: 2019
 
-footer_custom_text: 
+footer_custom_text:
 
 footer_copyright:
   enable: true
@@ -260,13 +260,13 @@ qihu_site_verification:
 
 # 友情鏈接界面設置
 Flink:
-  headline: 小伙伴们
+  headline: 友情链接
   info_headline: 我的 Blog 资料
   name: Blog 名字： 炎忍的博客
   address: Blog 地址： https://blog.endureblaze.cn
   avatar: Blog 头像： https://blog.endureblaze.cn/uploads/avatar.png
   info: Blog 简介： 心之所愿，无所不成。
-  comment: 
+  comment:
 
 # 打賞按鈕
 reward:
@@ -292,16 +292,16 @@ related_post:
 # Notice: color value must in double quotes like "#000" or may cause error!
 # ---------------
 theme_color:
-    enable: ture
-    main: "#49B1F5"
-    paginator: "#00c4b6"  
-    button_hover: "#FF7242"
-    text_selection: "#00c4b6"
-    link_color: "#99a9bf"
-    meta_color: '#858585'
-    hr_color: "#A4D8FA"
-    read-mode-bg_color: '#FAF9DE'
-    inline-code-color: '#F47466'
+  enable: ture
+  main: "#49B1F5"
+  paginator: "#00c4b6"
+  button_hover: "#FF7242"
+  text_selection: "#00c4b6"
+  link_color: "#99a9bf"
+  meta_color: "#858585"
+  hr_color: "#A4D8FA"
+  read-mode-bg_color: "#FAF9DE"
+  inline-code-color: "#F47466"
 
 # 主頁設置
 # 默認top_img全屏，site_info在中間
@@ -375,7 +375,7 @@ click_heart:
 # 點擊出現文字，文字可自行修改
 ClickShowText:
   enable: false
-  text: 
+  text:
     - 富强
     - 民主
     - 文明
@@ -424,10 +424,10 @@ hr:
 
 # 主頁subtitle
 # 打字效果
-subtitle: 
+subtitle:
   enable: true
   # source調用第三方服務
-  # source: false 關閉調用 
+  # source: false 關閉調用
   # source: 1  調用金山詞霸的每日一句（簡體）
   # source: 2  調用一言网的一句話（簡體） #https://hitokoto.cn/
   # source: 3  調用一句网（簡體） http://yijuzhan.com/
@@ -438,7 +438,6 @@ subtitle:
   sub:
     - 心之所愿&#44;无所不成。
     - 同学习&#44;共成长&#44;不将就&#44;不妥协！
-
 
 ####    側邊欄    ####
 #-------------------------------------
@@ -582,9 +581,9 @@ CDN_USE:
     #-  - https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css  #fontawesomeV5_css
     - https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.css
     - https://cdn.bootcss.com/dplayer/1.22.2/DPlayer.min.css
-    
+
   js:
-    - https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js   #/js/third-party/jquery.min.js
+    - https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js #/js/third-party/jquery.min.js
     - /js/utils.js
     - /js/main.js
     - https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/autoload.js
@@ -594,7 +593,6 @@ CDN_USE:
     #- https://cdn.jsdelivr.net/gh/yremp/yremp-js@1.5/sakura.js
     - /js/baidupush.js
     - /js/crash_cheat.js
-
 
 # CDN
 # 非必要不要修改
@@ -628,7 +626,7 @@ CDN:
   canvas_ribbon: https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/js/canvas-ribbon.js
   canvas_ribbon_piao: https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/js/piao.js
   canvas_nest: https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/js/canvas-nest.js
-  
+
   lazyload: https://cdn.jsdelivr.net/npm/lazysizes@latest/lazysizes.min.js
   instantpage: https://cdn.jsdelivr.net/npm/instant.page@latest/instantpage.min.js
 

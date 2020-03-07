@@ -1,5 +1,4 @@
 class:
-  class_name: 友情链接
   link_list:
     1:
       name: 灰灰のBLOG
@@ -44,7 +43,7 @@ class:
       name: XCLAN's Blog
       link: https://watashimo.xyz
       avatar: https://www.watashimo.xyz/img/avatar.jpg
-      descr: A Computer Science Student 
+      descr: A Computer Science Student
     11:
       name: Epors的个人博客
       link: http://epors.cn/
@@ -54,9 +53,14 @@ class:
       name: 小林卡比的技术分享
       link: https://blog.zerokirby.cn/
       avatar: https://blog.zerokirby.cn/img/avatar.jpg
-      descr: 分享我软件工程的学习历程 
+      descr: 分享我软件工程的学习历程
     13:
       name: 阴天
       link: https://zhykirby.github.io
       avatar: https://zhykirby.github.io/img/avatar_m.jpg
       descr: 一身转战三千里，一剑曾当百万师。
+    14:
+      name: Kevin's Blog
+      link: https://www.moekevin.com/
+      avatar: https://xxxxx/avatar.png
+      descr: 我们是不足以称为奇迹的微光
