@@ -5,7 +5,7 @@
 # Site
 title: 炎忍的博客
 subtitle: 同学习，共成长，不将就，不妥协！
-description: '心之所愿，无所不成。'
+description: "心之所愿，无所不成。"
 keywords: 汝南京,炎忍,炎忍博客，汝南京博客，炎忍的博客，汝南京的博客，EndureBlaze
 author: 汝南京
 language: zh-CN
@@ -23,8 +23,8 @@ url: https://blog.endureblaze.cn
 root: /
 permalink: posts/:abbrlink/
 abbrlink:
-  alg: crc32  #support crc16(default) and crc32
-  rep: hex    #support dec(default) and hex
+  alg: crc32 #support crc16(default) and crc32
+  rep: hex #support dec(default) and hex
 permalink_defaults:
 
 # Directory
@@ -52,7 +52,6 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
-  
 
 # 自动生成sitemap
 sitemap:
@@ -65,10 +64,10 @@ baidusitemap:
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
+  path: ""
   per_page: 10
   order_by: -date
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -94,10 +93,10 @@ theme: Butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  - type: git 
-    repo: 
-      github: git@github.com:endureblaze/endureblaze.github.io.git 
-      coding: git@e.coding.net:nhc/nhc.coding.me.git
+  - type: git
+    repo:
+      github: https://gh_token@github.com:endureblaze/endureblaze.github.io.git
+      coding: https://TJqUiRvigV:co_token@e.coding.net:nhc/nhc.coding.me.git
     branch: master
 
   - type: baidu_url_submitter
@@ -122,15 +121,15 @@ auto_category:
 baidu_url_submit:
   count: 20 ## 提交最新的一个链接
   host: blog.endureblaze.cn ## 在百度站长平台中注册的域名
-  token:  czftj7pG68mDZIJk ## 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
+  token: czftj7pG68mDZIJk ## 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
   path: baidu_urls.txt ## 文本文档的地址， 新链接会保存在此文本文档里
 
 encrypt:
-    enable: true
-    abstract: 有东西被加密了, 请输入密码查看.
-    message: 在这里输入密码.
-    wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.
-    wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.
+  enable: true
+  abstract: 有东西被加密了, 请输入密码查看.
+  message: 在这里输入密码.
+  wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.
+  wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.
 
 # offline config passed to sw-precache.
 offline:

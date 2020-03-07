@@ -1,5 +1,6 @@
 ---
 title: 如何使用 Dolphin Emulator 玩《星之卡比：Wii》
+cover: /uploads/blog_title/如何使用DolphinEmulator玩《星之卡比：Wii》.png
 abbrlink: 2fbba4ed
 tags:
   - 星之卡比

@@ -4,6 +4,7 @@ toc: false
 comments: false
 permalink: /404
 ---
+
 <style type="text/css">
     .article-title {
         font-size: 2.1em;
@@ -51,12 +52,12 @@ permalink: /404
     }
 </style>
 
-***
+---
 
 <p class="center">很抱歉，您所访问的地址并不存在: </p>
 
-<p class="center"><a href="/">回主页</a> · <a href="/archives">文章归档</a> · <a href="/about">关于更多</a></p>
+<p class="center"><a href="/">回主页</a> · <a href="/archives">文章归档</a> · <a href="/about">关于博主</a></p>
 
-<p class="center">可在边栏搜索框中对本站进行检索，以获取相关信息。</p>
+<p class="center">可在搜索框中对本站进行检索，以获取相关信息。</p>
 
 </div>
