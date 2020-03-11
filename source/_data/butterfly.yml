@@ -20,7 +20,7 @@ menu:
 
 # Favicon
 # ---------------
-favicon: /uploads/favicon-32x32-next.png
+favicon: /uploads/favicon.png
 
 #
 # See https://github.com/JLHwung/hexo-offline
@@ -252,7 +252,7 @@ bing_site_verification:
 
 # Baidu Webmaster tools verification setting
 # See: https://ziyuan.baidu.com/site/
-baidu_site_verification:
+baidu_site_verification: c3d2934724bf340e28b3e443b496e782
 
 # 360 Webmaster tools verification setting
 # see http://zhanzhang.so.com/

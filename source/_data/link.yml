@@ -14,8 +14,8 @@ class:
       avatar: https://xxxxx/avatar.png
     4:
       name: 何言的杂货店
-      link: http://heyanle.cn/
-      avatar: https://heyanle.cn/images/favicon-32x32-next.ico?v=7.4.0
+      link: http://heyanle.com/
+      avatar: https://heyanle.com/images/favicon-32x32-next.ico?v=7.4.0
     5:
       name: 天真的小窝
       link: https://bin.zmide.com/
@@ -62,5 +62,20 @@ class:
     14:
       name: Kevin's Blog
       link: https://www.moekevin.com/
-      avatar: https://xxxxx/avatar.png
+      avatar: https://cdn.v2ex.com/gravatar/82139e4535f29f5643866d116b81b9cd?s=160&d=mm&r=g
       descr: 我们是不足以称为奇迹的微光
+    15:
+      name: 飞翔企鹅的博客
+      link: https://32bit.cn
+      avatar: https://icon.qiantucdn.com/20200309/fb8cef770afcfc03ec333c544fde43042
+      descr: 程序猿日常摸鱼笔记
+    16:
+      name: O3E Network
+      link: https://www.o3e.net/
+      avatar:
+      descr: 一个神奇的页面
+    17:
+      name: 银弹的个人博客
+      link: https://yd.endureblaze.cn/
+      avatar: https://avatars3.githubusercontent.com/u/32926102?s=460&v=4
+      descr:
