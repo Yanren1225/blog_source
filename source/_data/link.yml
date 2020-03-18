@@ -15,7 +15,7 @@ class:
     4:
       name: 何言的杂货店
       link: http://heyanle.com/
-      avatar: https://heyanle.com/images/favicon-32x32-next.ico?v=7.4.0
+      avatar: http://heyanle.com/images/favicon-32x32-next.ico?v=7.4.0
     5:
       name: 天真的小窝
       link: https://bin.zmide.com/
@@ -36,8 +36,8 @@ class:
 
     9:
       name: 梧矜的屋
-      link: https://www.00oo00.xyz/
-      avatar: https://www.00oo00.xyz/favicon.png
+      link: https://blog.00oo00.xyz/
+      avatar: https://blog.00oo00.xyz/medias/avatar.jpg
       descr: 建议改成：梧 矜 的 屋
     10:
       name: XCLAN's Blog
@@ -77,5 +77,5 @@ class:
     17:
       name: 银弹的个人博客
       link: https://yd.endureblaze.cn/
-      avatar: https://avatars3.githubusercontent.com/u/32926102?s=460&v=4
+      avatar: https://yd.endureblaze.cn/img/avatar.png
       descr:
