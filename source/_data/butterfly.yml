@@ -12,12 +12,8 @@ menu:
   友情链接: /link/ || fa fa-link
   关于博主: /about/ || fa fa-heart
   留下足迹: /contact/ || fa fa-comments
+  相册集: /gallery/ || fa fa-picture-o
   资源分享: https://pan.endureblaze.cn || fa fa-folder
-  图集||fa fa-list:
-    - 相册 || /gallery/photos/ || fa fa-picture-o
-    - 设定 || /gallery/kirbyimage/ || fa fa-picture-o
-    - 壁纸 || /gallery/wallpaper/ || fa fa-picture-o
-
 # Favicon
 # ---------------
 favicon: /uploads/favicon.png
@@ -77,7 +73,7 @@ algolia_search:
 # Please see doc for more details: https://jerryc.me/posts/21cfbf15/#本地搜索
 # ---------------
 local_search:
-  enable: false
+  enable: true
   labels:
     input_placeholder: Search for Posts
     hits_empty: "We didn't find any results for the search: ${query}" # if there are no result
@@ -517,7 +513,7 @@ aside:
 
 # 網站公告
 announcement:
-  content: <div class="aplayer" data-id="3111066489" data-server="netease" data-type="playlist" data-autoplay="false" "data-mode:circulation"></div>
+  content: 💃Be my guest!👋~
 
 # busuanzi count for PV / UV in site
 # 訪問人數
