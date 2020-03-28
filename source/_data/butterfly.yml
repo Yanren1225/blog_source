@@ -5,15 +5,15 @@
 # xxx || icon:
 #   xxx || 連結 || icon
 menu:
-  博客首页: / || fa fa-home
-  文章归档: /archives/ || fa fa-archive
-  各种标签: /tags/ || fa fa-tags
-  分类专栏: /categories/ || fa fa-folder-open
-  友情链接: /link/ || fa fa-link
-  关于博主: /about/ || fa fa-heart
-  留下足迹: /contact/ || fa fa-comments
-  相册集: /gallery/ || fa fa-picture-o
-  资源分享: https://pan.endureblaze.cn || fa fa-folder
+  首页: / || fa fa-home
+  归档: /archives/ || fa fa-archive
+  标签: /tags/ || fa fa-tags
+  分类: /categories/ || fa fa-folder-open
+  友链: /link/ || fa fa-link
+  关于: /about/ || fa fa-heart
+  留言: /contact/ || fa fa-comments
+  图集: /gallery/ || fa fa-picture-o
+  资源: https://pan.endureblaze.cn || fa fa-folder
 # Favicon
 # ---------------
 favicon: /uploads/favicon.png
