@@ -4,8 +4,10 @@ date: 2019-08-01 12:03:32
 type: "about"
 comments: false
 ---
-- 常用 ID：`汝南京`，`炎忍`，`EndureBlaze`；
+
+- 常用 ID：`汝南京` ~~正在向后者过度，能改的都改了~~，`炎忍`，`EndureBlaze`；
 - 人在学校，大专生
+- 这是我的 [首页](https://endureblaze.cn)
 - [INFP-T](https://www.16personalities.com/ch/infp-%E4%BA%BA%E6%A0%BC)
 - 「你不关心政治，政治也会来关心你」；
 - 我想把这个 BLOG 的排版弄的规范点（[参考这个](https://github.com/sparanoid/chinese-copywriting-guidelines)）；
