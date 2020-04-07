@@ -171,6 +171,9 @@ post_meta:
 # Please see doc for more details: https://jerryc.me/posts/21cfbf15/#字數統計
 wordcount:
   enable: true
+  post_wordcount: true
+  min2read: true
+  total_wordcount: true
 
 toc:
   enable: true
@@ -313,6 +316,13 @@ google_adsense:
   client:
   enable_page_level_ads: true
 
+# 廣告插入位置
+# 適用於開啓手動廣告的配置
+# ad:
+#   index:
+#   aside:
+#   post:
+
 ####    站長驗證    ####
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
@@ -347,13 +357,32 @@ related_post:
   limit: 6 # 顯示推薦文章數目
   date_type: created # or created or updated 文章日期顯示創建日或者更新日
 
+# figcaption
+# 圖片描述文字
+photofigcaption: false
+
 ####    美化/效果    ####
 #--------------------------------
 
 # Theme color for customize
 # Notice: color value must in double quotes like "#000" or may cause error!
 # ---------------
-# theme_color:
+theme_color:
+  enable: true
+  main: "#0651a8"
+  paginator: "#8867c4"
+  button_hover: "#8266a2"
+  text_selection: "#8867c4"
+  link_color: "#7a8bda"
+  meta_color: "#858585"
+  hr_color: "#A4D8FA"
+  code_foreground: "#80aee5"
+  code_background: "rgba(27, 31, 35, .05)"
+  toc_color: "#8867c4"
+  blockquote_padding_color: "#0651a8"
+  blockquote_background_color: "#0651a8"
+
+#theme_color:
 #   enable: true
 #   main: "#49B1F5"
 #   paginator: "#00c4b6"
@@ -448,9 +477,9 @@ display_mode: light
 
 # 美化頁面顯示
 beautify:
-  enable: false
+  enable: true
   title-prefix-icon: '\f0c1'
-  title-prefix-icon-color: "#F47466"
+  title-prefix-icon-color: "#80aee5"
 
 # 全局字體
 font:
@@ -504,16 +533,25 @@ aside:
   mobile: true # 手機頁面（ 顯示寬度 < 768px ）是否顯示aside內容
   position: left # left or right
   card_author: true
-  card_announcement: true
-  card_recent_post: true
-  card_categories: true
-  card_tags: true
-  card_archives: true
+  card_announcement:
+    enable: true
+    content: 💃Be my guest!👋~
+  card_recent_post:
+    enable: true
+    limit: 5 # if set 0 will show all
+  card_categories:
+    enable: true
+    limit: 8 # if set 0 will show all
+  card_tags:
+    enable: true
+    limit: 40 # if set 0 will show all
+  card_archives:
+    enable: true
+    type: monthly # yearly or monthly
+    format: MMMM YYYY # eg: YYYY年MM月
+    order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
+    limit: 8 # if set 0 will show all
   card_webinfo: true
-
-# 網站公告
-announcement:
-  content: 💃Be my guest!👋~
 
 # busuanzi count for PV / UV in site
 # 訪問人數
@@ -584,7 +622,7 @@ fancybox:
 snackbar:
   enable: true
   position: bottom-left
-  bg_light: "#49b1f5" #light mode時彈窗背景
+  bg_light: "#0651a8" #light mode時彈窗背景
   bg_dark: "#2d3035" #dark mode時彈窗背景
 
 #百度推送
