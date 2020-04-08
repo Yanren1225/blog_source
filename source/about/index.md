@@ -34,7 +34,7 @@ comments: false
 - 开源网站：GitHub（[@EndureBlaze](https://github.com/endureblaze)）
 - 视频网站：哔哩哔哩（[@汝南京](https://space.bilibili.com/21696748)）
 
-这是我的 [PGP](https://gist.github.com/EndureBlaze/ac9baa5cc952f7425cfebdcac2f3ecee) 公钥，指纹为：`B28684BECADF1E259607D3CBCE3C4F005627FE06`
+这是我的 [PGP](/PGP) 公钥，指纹为：`B28684BECADF1E259607D3CBCE3C4F005627FE06`
 
 ~~更多尚在补全中~~
 
