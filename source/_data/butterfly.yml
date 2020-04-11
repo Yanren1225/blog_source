@@ -12,7 +12,8 @@ menu:
   友链: /link/ || fa fa-link
   关于: /about/ || fa fa-heart
   留言: /contact/ || fa fa-comments
-  图集: /gallery/ || fa fa-picture-o
+  游戏: /steamgames/ || fab fa-steam
+  图集: /gallery/ || far fa-image
   资源: https://pan.endureblaze.cn || fa fa-folder
 # Favicon
 # ---------------
@@ -50,8 +51,8 @@ copy:
 #   icon: link
 # ---------------
 social:
-  fa fa-github: https://github.com/endureblaze
-  fa fa-weibo: http://weibo.com/nihaocun
+  fab fa-github: https://github.com/endureblaze
+  fab fa-weibo: http://weibo.com/nihaocun
   fa fa-envelope: mailto:nihaocun@163.com
   fa fa-rss: /atom.xml
 
@@ -522,7 +523,7 @@ subtitle:
 # fontawesome圖標
 # 默認使用的是 fontawesome v4版本的圖標
 fontawesome_v5:
-  enable: false
+  enable: true
 
 ####    側邊欄    ####
 #-------------------------------------
@@ -695,6 +696,11 @@ CDN_USE:
     - https://cdn.bootcss.com/dplayer/1.22.2/DPlayer.min.js
     - /js/baidupush.js
     - /js/crash_cheat.js
+
+    #- https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js
+    #- https://cdn.jsdelivr.net/npm/pixi.js@4.6.1/dist/pixi.min.js
+    #- https://cdn.jsdelivr.net/gh/HCLonely/Live2dV3@1.1.1/live2dv3.min.js
+    #- /js/test.js
 
 # CDN
 # 非必要不要修改

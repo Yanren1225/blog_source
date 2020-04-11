@@ -101,12 +101,6 @@ deploy:
 
   - type: baidu_url_submitter
 
-symbols_count_time:
-  symbols: true
-  time: true
-  total_symbols: true
-  total_time: true
-
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 plugins: hexo-generate-feed
@@ -160,3 +154,34 @@ aplayer:
   meting: true
   asset_inject: false
   skip_render: [js/*]
+
+steam:
+  enable: true
+  steamId: "76561198370811610" #steam 64位Id
+  title: Steam 游戏库
+  quote: "买了也不玩"
+  tab: all
+  length: 1000
+  imgUrl: "https://steamsignature.com/profile/schinese/76561198370811610.png"
+  proxy:
+    host: 127.0.0.1
+    port: 10809
+
+live2d:
+  enable: false
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  debug: false
+  model:
+    use: hao
+  display:
+    position: right
+    width: 150
+    height: 300
+  mobile:
+    show: true
+  react:
+    opacity: 0.7

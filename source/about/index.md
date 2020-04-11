@@ -66,3 +66,25 @@ comments: false
 - steam：endureblaze
 - 守望先锋：汝南京#5207
 - osu!：[endureblaze](https://osu.ppy.sh/users/14037205)
+- [看看我的 steam 库](/steamgames)
+
+---
+
+# 关于站点
+
+- 框架：[Hexo](https://hexo.io/)
+- 主题：[Butterfly](https://github.com/jerryc127/hexo-theme-butterfly)
+- 插件
+  - 音乐：[hexo-tag-aplayer](https://github.com/MoePlayer/hexo-tag-aplayer)
+  - 固定链接：[hexo-abbrlink](https://github.com/rozbo/hexo-abbrlink)
+  - Steam 游戏库页面：[hexo-steam-games](https://github.com/HCLonely/hexo-steam-games)
+  - 文章加密：[hexo-blog-encrypt](https://github.com/MikeCoder/hexo-blog-encrypt)
+  - RSS：[hexo-generator-feed](https://github.com/hexojs/hexo-generator-feed)
+  - 搜索：[https://github.com/wzpan/hexo-generator-search](hexo-generator-search)
+  - 图片大图查看：[fancybox](https://fancyapps.com/fancybox/3/)
+  - 网站地图：[hexo-generator-sitemap](https://github.com/hexojs/hexo-generator-sitemap)
+  - 网站地图（百度特供）：[hexo-generator-baidu-sitemap](https://github.com/coneycode/hexo-generator-baidu-sitemap)
+  - 百度链接自动提交：[hexo-baidu-url-submit](https://github.com/huiwang/hexo-baidu-url-submit)
+  - 自动分类：[hexo-auto-category](https://github.com/xu-song/hexo-auto-category)
+  - 字数统计：[hexo-wordcount](https://github.com/willin/hexo-wordcount)
+  - 评论：[Valine](https://github.com/xCss/Valine)
