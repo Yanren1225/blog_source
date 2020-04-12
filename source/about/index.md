@@ -1,9 +1,11 @@
 ---
-title: 关于博主
+title: 关于
 date: 2019-08-01 12:03:32
 type: "about"
 comments: false
 ---
+
+# 关于我
 
 - 常用 ID：`汝南京` ~~正在向后者过度，能改的都改了~~，`炎忍`，`EndureBlaze`；
 - 人在学校，大专生
@@ -80,7 +82,7 @@ comments: false
   - Steam 游戏库页面：[hexo-steam-games](https://github.com/HCLonely/hexo-steam-games)
   - 文章加密：[hexo-blog-encrypt](https://github.com/MikeCoder/hexo-blog-encrypt)
   - RSS：[hexo-generator-feed](https://github.com/hexojs/hexo-generator-feed)
-  - 搜索：[https://github.com/wzpan/hexo-generator-search](hexo-generator-search)
+  - 搜索：[hexo-generator-search](https://github.com/wzpan/hexo-generator-search)
   - 图片大图查看：[fancybox](https://fancyapps.com/fancybox/3/)
   - 网站地图：[hexo-generator-sitemap](https://github.com/hexojs/hexo-generator-sitemap)
   - 网站地图（百度特供）：[hexo-generator-baidu-sitemap](https://github.com/coneycode/hexo-generator-baidu-sitemap)

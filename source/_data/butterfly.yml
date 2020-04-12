@@ -690,17 +690,13 @@ CDN_USE:
     - https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js #/js/third-party/jquery.min.js
     - /js/utils.js
     - /js/main.js
-    - https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/autoload.js
+    #- https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/autoload.js
     - https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.js
     - https://cdn.jsdelivr.net/npm/meting@1.2/dist/Meting.min.js
     - https://cdn.bootcss.com/dplayer/1.22.2/DPlayer.min.js
     - /js/baidupush.js
     - /js/crash_cheat.js
-
-    #- https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js
-    #- https://cdn.jsdelivr.net/npm/pixi.js@4.6.1/dist/pixi.min.js
-    #- https://cdn.jsdelivr.net/gh/HCLonely/Live2dV3@1.1.1/live2dv3.min.js
-    #- /js/test.js
+    - https://cdn.jsdelivr.net/gh/EndureBlaze/live2d-hao@latest/autoload.js
 
 # CDN
 # 非必要不要修改
