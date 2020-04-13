@@ -696,7 +696,7 @@ CDN_USE:
     - https://cdn.bootcss.com/dplayer/1.22.2/DPlayer.min.js
     - /js/baidupush.js
     - /js/crash_cheat.js
-    - https://cdn.jsdelivr.net/gh/EndureBlaze/live2d-hao@latest/autoload.js
+    - https://cdn.jsdelivr.net/gh/EndureBlaze/live2d-hao@0.1/autoload.js
 
 # CDN
 # 非必要不要修改

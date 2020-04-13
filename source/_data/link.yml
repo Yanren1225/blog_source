@@ -33,7 +33,6 @@ class:
       link: https://butanediol.github.io
       avatar: https://butanediol.github.io/medias/avatar.jpg
       descr: 丁二的日常在售
-
     9:
       name: 梧矜的屋
       link: https://blog.00oo00.xyz/
@@ -84,3 +83,8 @@ class:
       link: https://b.dopi.cc/
       avatar: https://b.dopi.cc/usr/themes/Bubble-master/images/avatar.png
       descr: 一个励志做全栈的小白
+    19:
+      name: 北极熊的窝
+      link: https://maoookai.cn/
+      avatar:
+      descr: 命は、遠い船の如き…

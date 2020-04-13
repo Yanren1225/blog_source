@@ -166,22 +166,3 @@ steam:
   proxy:
     host: 127.0.0.1
     port: 10809
-
-live2d:
-  enable: false
-  scriptFrom: local
-  pluginRootPath: live2dw/
-  pluginJsPath: lib/
-  pluginModelPath: assets/
-  tagMode: false
-  debug: false
-  model:
-    use: hao
-  display:
-    position: right
-    width: 150
-    height: 300
-  mobile:
-    show: true
-  react:
-    opacity: 0.7
