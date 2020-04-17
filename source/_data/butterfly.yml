@@ -478,8 +478,8 @@ display_mode: light
 # 美化頁面顯示
 beautify:
   enable: true
-  title-prefix-icon: '\f0c1'
-  title-prefix-icon-color: "#80aee5"
+  title-prefix-icon: '\f0e7'
+  title-prefix-icon-color: "#ffb821"
 
 # 全局字體
 font:
