@@ -15,6 +15,7 @@ menu:
   游戏: /steamgames/ || fab fa-steam
   图集: /gallery/ || far fa-image
   资源: https://pan.endureblaze.cn || fa fa-folder
+  Travelling: https://travellings.now.sh/ ||
 # Favicon
 # ---------------
 favicon: /uploads/favicon.png
@@ -286,7 +287,7 @@ utterances:
 # ------------------------------------
 since: 2019
 
-footer_custom_text:
+footer_custom_text: <a href="https://travellings.now.sh/" target="blank" title="开往-友链接力"><img src="/uploads/travellings.png" alt="开往-友链接力" width="120"></a>
 
 footer_copyright:
   enable: true
