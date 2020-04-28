@@ -30,8 +30,8 @@ class:
       avatar: http://www.xcstars.cn/wp-content/uploads/2019/09/cropped-94f29ca23af68267091fa8ce7ec2f174-192x192.png
     8:
       name: 丁丁の店
-      link: https://butanediol.github.io
-      avatar: https://butanediol.github.io/medias/avatar.jpg
+      link: https://blog.butanediol.me/
+      avatar: https://blog.butanediol.me/medias/avatar.jpg
       descr: 丁二的日常在售
     9:
       name: 梧矜的屋
@@ -98,3 +98,8 @@ class:
       link: https://www.wucheng.work/
       avatar:
       descr: 一个在努力学习的小菜鸟……
+    23:
+      name: 一只鸽子的小站
+      link: https://onepigeon.baklib.com/
+      avatar: https://blog.endureblaze.cn/link/avatar/23.png
+      descr: 这只鸽子喜欢碎碎念……
