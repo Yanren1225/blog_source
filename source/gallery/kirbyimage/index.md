@@ -7,7 +7,6 @@ comments: true
 > 这些是我的在 星之卡比 中的设定形象
 > 都是由不同的人画的，图片下面有说明
 
-
 {% gallery %}
 ![个人吧绘图-雪再霏霏](/gallery/kirbyimage/images/个人吧绘图-雪再霏霏.jpg)
 ![拟人-叶忍](/gallery/kirbyimage/images/拟人-叶忍.jpg)

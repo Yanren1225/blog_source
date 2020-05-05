@@ -23,7 +23,7 @@ date: 2020-04-22 11:14:28
 
 # 怎么加入开往
 
-[开往-友链接力](https://github.com/volfclub/travellings)
+{% btn "https://github.com/volfclub/travellings", "开往-友链接力", "开往-友链接力" %}
 
 这是项目的 Github 地址，在 issue 中提交申请，几日内就会受理。但是申请的网站必须满足几点要求：
 

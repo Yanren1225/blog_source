@@ -29,8 +29,8 @@ pwa:
   manifest: /manifest.json
   theme_color: "#fff"
   apple_touch_icon: /img/pwa/apple-touch-icon.png
-  favicon_32_32: /img/pwa/32.png
-  favicon_16_16: /img/pwa/16.png
+  favicon_32_32: /uploads/favicon.png
+  favicon_16_16: /uploads/favicon.png
   mask_icon: /img/pwa/safari-pinned-tab.svg
 
 # Highlight theme
@@ -54,7 +54,7 @@ copy:
 #   icon: link || the description
 # ---------------
 social:
-  fa fa-github: https://github.com/endureblaze || Github
+  fab fa-github: https://github.com/endureblaze || Github
   fab fa-weibo: http://weibo.com/nihaocun || Weibo
   fa fa-envelope: mailto:nihaocun@163.com || Email
   fa fa-rss: /atom.xml || RSS
@@ -262,7 +262,7 @@ valine:
   enable: true # if you want use valine,please set this value is true
   appId: mkXwofMbfYO720xHjY1iGzCh-gzGzoHsz # leancloud application app id
   appKey: 3POIeGQPSzK4f9k77mDvBoWx # leancloud application app key
-  notify: false # valine mail notify (true/false) Deprecated in v1.4.0+
+  notify: true # valine mail notify (true/false) Deprecated in v1.4.0+
   verify: false # valine verify code (true/false) Deprecated in v1.4.0+
   pageSize: 10 # comment list page size
   avatar: identicon # gravatar style https://valine.js.org/#/avatar
@@ -316,10 +316,10 @@ ICP:
 
 ####   Analysis    ####
 # ---------------
-baidu_analytics: c3d2934724bf340e28b3e443b496e782
+baidu_analytics: #c3d2934724bf340e28b3e443b496e782
 
 # Google Analytics
-google_analytics: UA-157956256-1
+google_analytics: #UA-157956256-1
 
 # Tencent_analytics ID
 tencent_analytics:
@@ -376,7 +376,7 @@ related_post:
 
 # figcaption
 # 圖片描述文字
-photofigcaption: true
+photofigcaption: false
 
 ####    美化/效果    ####
 #--------------------------------
@@ -435,8 +435,8 @@ canvas_ribbon:
 
 # 動態彩帶
 canvas_ribbon_piao:
-  enable: true
-  mobile: true # false 手機端不顯示 true 手機端顯示
+  enable: false
+  mobile: false # false 手機端不顯示 true 手機端顯示
 
 # canvas_nest
 # https://github.com/hustcc/canvas-nest.js
@@ -486,15 +486,17 @@ beautify:
 
 # 全局字體
 font:
-  enable: false
-  font-family: Lato, Helvetica Neue For Number, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, MicrMicrosoft YaHei", Helvetica Neue, Helvetica, Arial, sans-serif
-  code-font: consolas, Menlo, "PingFang SC", "Microsoft YaHei", monospace, Helvetica Neue For Number
+  enable: true
+  font-family: JetBrains Mono, Helvetica Neue For Number, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, MicroMicrosoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif
+  code-font: JetBrains Mono，consolas
+
+#, , Menlo, "PingFang SC", "Microsoft YaHei", monospace, Helvetica Neue For Number
 
 # 網站名字字體
 # 左上角網站名字 主頁居中網站名字
 blog_title_font:
-  font_link: https://fonts.googleapis.com/css?family=Titillium+Web #字體鏈接
-  font-family: Titillium Web, PingFang SC, Hiragino Sans GB, "Microsoft YaHei", Helvetica Neue, Helvetica, Arial, sans-serif
+  font_link: #https://fonts.googleapis.com/css?family=Titillium+Web #字體鏈接
+  font-family: JetBrains Mono, Titillium Web, PingFang SC, Hiragino Sans GB, "Microsoft YaHei", Helvetica Neue, Helvetica, Arial, sans-serif
 
 # 水平分隔綫
 hr:
@@ -694,6 +696,8 @@ inject:
     #css
     - <link rel="stylesheet" href="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.css">
     - <link rel="stylesheet" href="https://cdn.bootcss.com/dplayer/1.22.2/DPlayer.min.css">
+    - <link rel="stylesheet" href="/css/font.css">
+    - <link rel="stylesheet" href="/css/heimu.css">
     #js
     - <script src="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.js"></script>
     - <script src="https://cdn.jsdelivr.net/npm/meting@1.2/dist/Meting.min.js"></script>

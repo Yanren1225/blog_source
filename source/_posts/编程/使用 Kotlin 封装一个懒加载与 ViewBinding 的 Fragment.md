@@ -1,5 +1,5 @@
 ---
-title: 使用 Kotlin 编写一个懒加载与 ViewBinding 的 Fragment.md
+title: 使用 Kotlin 编写一个懒加载与 ViewBinding 的 Fragment
 cover: /uploads/blog_title/android开发Kotlin.png
 tags:
   - Android
@@ -13,7 +13,8 @@ abbrlink: 51f7c2cb
 date: 2020-04-26 23:14:44
 ---
 
-~~有关 ViewBinding 的用法看 [这里](https://developer.android.google.cn/topic/libraries/view-binding)~~
+有关 ViewBinding 的用法看 [这里](https://developer.android.google.cn/topic/libraries/view-binding)
+
 最近在学习 Kotlin 的时候有遇到需要封装一个拥有懒加载功能的 Fragment，并且我还想用上新的 ViewBinding 功能。
 那么第一个实现比较简单的，之前在 Java 也封装过，唯一的问题就是之前使用的是重写 `setUserVisibleHint` 方法来实现的，不过这个方法已经被标记为 `deprecated`（弃用的）了，指不定那一天就用不了了。
 根据官方的提示：
