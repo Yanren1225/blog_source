@@ -31,7 +31,7 @@ date: 2020-04-26 23:14:44
 
 首先贴上代码
 
-```Kotlin
+```kotlin
 /**
  * 封装一个有懒加载的 Fragment
  * @param T 传入泛型的 ViewBinding
@@ -106,7 +106,7 @@ abstract class BaseFragment<T : ViewBinding>(private val layoutId: Int) : Fragme
 那我们看看这个应该如何使用吧
 （假设你的 Fragment 的布局名称是 fragment_test，里面有一个 id 为 tvMain 的 TextView）
 
-```Kotlin
+```kotlin
 class TestFragment : BaseFragment<FragmentTestBinding>(R.layout.fragment_test) {
 
 
@@ -132,7 +132,7 @@ class TestFragment : BaseFragment<FragmentTestBinding>(R.layout.fragment_test) {
 
 那说了这么多，“那个参数” 到底在哪里呢？来了来了，不过我们要先写一个 adapter 才可以
 
-```Kotlin
+```kotlin
 class ViewPagerAdapter constructor (
     private val fragmentManager: FragmentManager,
     // 注意看这个参数
@@ -149,7 +149,7 @@ class ViewPagerAdapter constructor (
 
 代码很简单，只是重写了几个方法而已，不过接下来才是重点,在调用传入的时候我们需要转入重要的参数
 
-```Kotlin
+```kotlin
 viewPager.adapter = ViewPagerAdapter(
             supportFragmentManager,
             // 看这里
