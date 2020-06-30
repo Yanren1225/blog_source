@@ -1,18 +1,28 @@
-/* global hexo */
+/**
+ * Button
+ * {% btn url text icon option %}
+ * option: color outline center block larger
+ * color : default/blue/pink/red/purple/orange/green
+ */
 
-'use strict';
+'use strict'
 
-const button = (args) => {
-  args = args.join(' ').split(',');
-  const url = (args[0] || '').trim();
-  const text = (args[1] || '').trim();
-  const title = (args[2] || '').trim();
+const urlFor = require('hexo-util').url_for.bind(hexo)
 
-  !url && hexo.log.warn('Button url must be defined!');
+function btn (args) {
+  args = args.join(' ').split(',')
+  let url = args[0] || ''
+  let text = args[1] || ''
+  let icon = args[2] || ''
+  let option = args[3] || ''
 
-  return `<a class="btn" href="${url}" ${title.length > 0 ? ` title="${title}"` : ''} target="_blank">${text}</a>`;
-};
+  url = url.trim()
+  text = text.trim()
+  icon = icon.trim()
+  option = option.trim()
 
-// {% btn url, text, title %}
-hexo.extend.tag.register('button', button, { ends: false });
-hexo.extend.tag.register('btn', button, { ends: false });
+  return `<a class="btn-beautify button--animated ${option}" href="${urlFor(url)}" 
+  title="${text}">${icon.length > 0 ? `<i class="${icon} fa-fw"></i>` : ''}<span>${text}</span></a>`
+}
+
+hexo.extend.tag.register('btn', btn, { ends: false })

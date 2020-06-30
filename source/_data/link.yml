@@ -108,3 +108,13 @@ class:
       link: blog.jiehua1995.xyz
       avatar: https://blog.jiehua1995.xyz/img/avatar.jpeg
       descr: 业余学习前端的生物狗
+    25:
+      name: Ying
+      link: https://yingserver.cn
+      avatar: https://cdn.jsdelivr.net/gh/cxying/ying-blog-cdn/files/static/images/head.jpg
+      descr: 喵~
+    26:
+      name: FANTASY博客
+      link: https://blog.tigerxly.com/
+      avatar: https://tigerxlystatic.togotoo.top/wp-content/my_icon.jpg
+      descr: 记录学习、生活的小站
