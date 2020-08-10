@@ -88,7 +88,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: Butterfly
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -165,4 +165,4 @@ steam:
   imgUrl: "https://steamsignature.com/profile/schinese/76561198370811610.png"
   proxy:
     host: 127.0.0.1
-    port: 10809
+    port: 7890

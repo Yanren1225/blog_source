@@ -2,7 +2,7 @@
   .comment-head
     margin-bottom: 1rem
 
-    .comment-headling
+    .comment-headline
       display: inline-block
       vertical-align: middle
       font-weight: 700
@@ -19,6 +19,8 @@
         border-radius: 8px
         background: $comments-switch-bg
       else
+        vertical-align: middle
+
         > span
           display: none
 
@@ -70,5 +72,5 @@
             transition: .4s
 
   .comment-wrap
-    .comments-items-2
+    > div:nth-child(2)
       display: none
