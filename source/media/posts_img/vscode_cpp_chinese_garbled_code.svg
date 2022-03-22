@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1280 720" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1.76066,0,0,3.81078,-204.237,-590.672)">
+        <rect x="116" y="155" width="727" height="188.937" style="fill:rgb(44,44,50);"/>
+    </g>
+    <g id="vscodeignore" transform="matrix(1,0,0,1,487,360)">
+        <g transform="matrix(1,0,0,1,-100,-100)">
+            <path d="M147.2,5.6L147.2,168L5.6,146.8L147.4,194.6L194.6,175L194.6,25.2L147.2,5.6ZM97.6,33.2L54.2,76L28,56.4L17.4,60L44,86.2L17.4,112.6L28.2,116.2L54.4,96.6L97.8,139.6L123.8,128.6L123.8,44.2L97.6,33.2ZM97.6,63.8L97.6,108.8L67.8,86.2L97.6,63.8Z" style="fill:rgb(33,150,243);fill-rule:nonzero;"/>
+        </g>
+    </g>
+    <g transform="matrix(16.2111,0,0,16.2111,-6456.77,-6236.25)">
+        <text x="440.074px" y="411.193px" style="font-family:'AlibabaSans-Regular', 'Alibaba Sans', sans-serif;font-size:12px;fill:white;">C</text>
+    </g>
+</svg>

@@ -1,0 +1,10 @@
+.heimu {
+  background: black;
+  color: black;
+  transition: color 1s;
+  width: auto;
+  height: 20px;
+}
+.heimu:hover {
+  color: white;
+}

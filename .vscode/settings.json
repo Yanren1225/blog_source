@@ -1,0 +1,10 @@
+{
+    "python.pythonPath": "C:\\Users\\nihaocun\\scoop\\shims\\python.exe",
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": true,
+    "svg.preview.background": "black",
+    "cSpell.words": [
+        "linkify"
+    ]
+}

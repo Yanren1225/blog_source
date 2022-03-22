@@ -1,0 +1,5 @@
+html {
+    /* IE 浏览器 */
+    filter: progid: DXImageTransform.Microsoft.BasicImage(grayscale=1);
+    filter: grayscale(100%);
+}

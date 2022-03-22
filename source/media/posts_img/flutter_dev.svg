@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1920 1080" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="图层_2">
+        <rect x="0" y="0" width="1920" height="1080" style="fill:rgb(19,137,253);"/>
+        <g transform="matrix(1.72089,0,0,1.72089,-241.655,-110.979)">
+            <text x="288px" y="595px" style="font-family:'Jost-BoldItalic', 'Jost*';font-weight:700;font-style:italic;font-size:277.846px;fill:white;fill-opacity:0.17;">Flutter</text>
+        </g>
+        <g transform="matrix(1.31818,0,0,1.31818,811.699,230.227)">
+            <path d="M133.535,16.465L28.535,121.465C26.58,123.42 26.58,126.585 28.535,128.535L56.465,156.465C58.42,158.42 61.585,158.42 63.535,156.465L196.465,23.535C199.615,20.385 197.385,15 192.93,15L137.07,15C135.745,15 134.475,15.525 133.535,16.465ZM196.465,123.535L110,210L78.535,178.535C76.58,176.58 76.58,173.415 78.535,171.465L133.535,116.465C134.475,115.525 135.745,115 137.07,115L192.93,115C197.385,115 199.615,120.385 196.465,123.535ZM196.465,226.465L160,190L110,210L133.535,233.535C134.475,234.475 135.745,235 137.07,235L192.93,235C197.385,235 199.615,229.615 196.465,226.465Z" style="fill:white;fill-rule:nonzero;"/>
+        </g>
+    </g>
+    <g id="图层_1">
+    </g>
+</svg>

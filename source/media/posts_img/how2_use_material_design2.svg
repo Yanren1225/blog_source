@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1280 720" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
+    <g transform="matrix(4.32432,0,0,6.54545,-2412.97,-1368)">
+        <rect x="558" y="209" width="296" height="110" style="fill:rgb(91,132,238);"/>
+    </g>
+    <g id="material_logo.e9e4fbf5e0c7e2a8c46b" transform="matrix(3.125,0,0,3.125,640,360)">
+        <g transform="matrix(1,0,0,1,-32,-32)">
+            <clipPath id="_clip1">
+                <rect x="0" y="0" width="64" height="64"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g opacity="0.5">
+                    <circle cx="32" cy="32" r="31" style="fill:none;stroke:white;stroke-width:2px;"/>
+                    <rect x="10.6" y="10.6" width="42.8" height="42.8" style="fill:none;stroke:white;stroke-width:2px;"/>
+                    <path d="M52.782,10.6L11.218,10.6L32,52.164L52.782,10.6Z" style="fill:none;stroke:white;stroke-width:2px;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

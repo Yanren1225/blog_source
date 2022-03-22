@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1280 720" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(3.01176,0,0,3.15789,-304.188,-262.105)">
+        <rect x="101" y="83" width="425" height="228" style="fill:rgb(255,245,86);"/>
+    </g>
+    <g transform="matrix(1,0,0,1.14286,186.5,14.2857)">
+        <path d="M666,258.75C666,234.604 643.596,215 616,215L291,215C263.404,215 241,234.604 241,258.75L241,346.25C241,370.396 263.404,390 291,390L616,390C643.596,390 666,370.396 666,346.25L666,258.75Z" style="fill:rgb(255,86,86);"/>
+    </g>
+    <g transform="matrix(8.92608,0,0,8.92608,-1350.1,-2818.49)">
+        <text x="205px" y="360.38px" style="font-family:'SimHei', monospace;font-size:12px;fill:white;">诡辩术</text>
+    </g>
+</svg>
