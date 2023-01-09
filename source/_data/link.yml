@@ -1,6 +1,6 @@
 - classname:
   link_list:
-    - name: 灰灰のBLOG
+    - name: 灰灰の BLOG
       link: https://blog.xhhold.com
       avatar: https://blog.xhhold.com/images/avatar.jpg
 
@@ -60,10 +60,10 @@
       avatar: https://skyrocketing.ninja/img/icon.fefc1b31.png
       descr: Undergraduate, Communist, programmer.
 
-    - name: 戊成的BLOG
+    - name: 戊成的 BLOG
       link: https://www.wucheng.work
       avatar: https://www.wucheng.work/images/avatar.png
-      descr: 怀念过去，珍惜眼前，着手未来 
+      descr: 怀念过去，珍惜眼前，着手未来
 
     - name: 青行三の个人博客
       link: https://blog.jiehua1995.xyz
@@ -75,24 +75,24 @@
       avatar: https://cdn.jsdelivr.net/gh/luvying/ying-blog-cdn/files/static/images/avatar.jpg
       descr: ⎛⎝喵~⎠⎞
 
-    - name: FANTASY博客
+    - name: FANTASY 博客
       link: https://blog.tigerxly.com
       avatar: https://img.sunxiaochuan258.com/avatar/himari_256.jpg
       descr: 记录学习、生活的小站
 
-    - name: ZileWang7的Blog
+    - name: ZileWang7 的 Blog
       link: https://zilewang7.github.io
       avatar: https://zilewang7.github.io/images/avatar.png
-      descr: 等🐓啄完了🍚，🐕舔完了🍜，🔥烧断了🔒 Bolg就不🕊了
+      descr: 等🐓啄完了🍚，🐕舔完了🍜，🔥烧断了🔒 Bolg 就不🕊了
 
     - name: Shan San
       link: https://shansan.top
       avatar: https://cdn.jsdelivr.net/gh/ssmath/images-assets-cdn/try20200311205451.jpg
       descr: 云原生技术爱好者
 
-    - name: ReaJason's Space
-      link: https://reajason.top
-      avatar: https://cdn.jsdelivr.net/gh/LingSiKi/images/img/avatar.jpg
+    - name: ReaJason
+      link: https://reajason.vercel.app
+      avatar: https://cdn.jsdelivr.net/gh/ReaJason/blog_imgs/default/avatar.jpg
       descr: Love Yourself
 
     - name: 可爱怪的窝
@@ -100,7 +100,7 @@
       avatar: https://cdn.jsdelivr.net/gh/zsqw123/cdn@master/img/custom/icon.webp
       descr: 这是一只可爱怪
 
-    - name: Dragon犬’s blog
+    - name: Dragon 犬’s blog
       link: https://blog.furrysp.top
       avatar: https://sdn.geekzu.org/avatar/26fb4e9d679e499d8545df9f2aea519c?s=100
       descr: あなたは主人公になりたいですか？
@@ -118,7 +118,7 @@
     - name: 郑洪志博客
       link: https://blog.zmzhz.com
       avatar: http://blog.zmzhz.com/usr/uploads/images/logo.png
-      descr: 一个喜欢看电影的PHPer
+      descr: 一个喜欢看电影的 PHPer
 
     - name: 谭先生的塘
       link: https://tandongtao.com
@@ -139,6 +139,21 @@
       avatar: https://cdn.dopi.cc/halo/QQ%E5%9B%BE%E7%89%8720211007170836_1633601967057.jpg-imgzip
       descr: 一个励志做全栈的小白
 
+    - name: CasecoRI
+      link: https://www.casecori.top/
+      avatar: https://cdn.casecori.top/gh/cystee/om/favicon.png
+      descr: 高智熵博主
+
+    - name: 常青园晚
+      link: https://blog.catrol.cn/
+      avatar: https://source.catrol.cn/icons/headIcon.jpg
+      descr: 高中小菜鸡，喜欢编程，打游戏以及学习（不是）。
+
+    - name: Freesia Blog
+      link: https://blog.freesia.icu
+      avatar: https://blog.freesia.icu/assets/images/me.jpg
+      descr: 前端菜只因
+
 - classname:
   class_desc: 已无法访问
   link_list:
@@ -151,7 +166,7 @@
       avatar: https://cdn.v2ex.com/gravatar/82139e4535f29f5643866d116b81b9cd?s=160&d=mm&r=g
       descr: 我们是不足以称为奇迹的微光
 
-    - name: Epors的个人博客
+    - name: Epors 的个人博客
       link: http://epors.cn
       avatar: https://secure.gravatar.com/avatar/3c622ef95f28da892afe86114e7de48d?s=80&r=G&d=
       descr: 我喜欢音乐，却学了很多计算机知识
